@@ -1,0 +1,38 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 401milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 401"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59122"}
+{"logLevel":"info","message":"Listening on port:59122"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'base.BaseTest.waitOneSec' and 'base.BaseTest.waitOneSec'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'test.LaunchTest.checkButton' and 'test.LaunchTest.checkButton'"}
+{"logLevel":"debug","message":"Found Close the launch screen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'test.SignUpTest.checkSignupButtonText' and 'test.SignUpTest.checkSignupButtonText'"}
+{"logLevel":"debug","message":"Found Check signup button text in current project scope."}
+{"logLevel":"debug","message":"Comparing 'test.SignUpTest.checkSignupScreenTitle' and 'test.SignUpTest.checkSignupScreenTitle'"}
+{"logLevel":"debug","message":"Found Check title of signup screen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'test.LaunchTest.testAvailableButton' and 'test.LaunchTest.testAvailableButton'"}
+{"logLevel":"debug","message":"Found Check the available button and click in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck the available button and click : public void testAvailableButton()"}
+{"logLevel":"debug","message":"\tTurn back : public void turnBack()"}
+{"logLevel":"debug","message":"\tClose the launch screen : public void checkButton()"}
+{"logLevel":"debug","message":"\tCheck title of signup screen : public void checkSignupScreenTitle()"}
+{"logLevel":"debug","message":"\tCheck signup button text : public void checkSignupButtonText()"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitOneSec(long time) throws InterruptedException"}
+Dec 30, 2023 1:28:17 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Check the available button and click' using 'class test.LaunchTest.testAvailableButton"}
+{"logLevel":"debug","message":"Executing 'Close the launch screen' using 'class test.LaunchTest.checkButton"}
+{"logLevel":"debug","message":"Executing 'Check title of signup screen' using 'class test.SignUpTest.checkSignupScreenTitle"}
+{"logLevel":"debug","message":"Executing 'Check signup button text' using 'class test.SignUpTest.checkSignupButtonText"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

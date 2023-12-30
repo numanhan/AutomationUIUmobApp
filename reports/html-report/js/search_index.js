@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Umob Mobile App Test":["specs/e2e.html"]}};

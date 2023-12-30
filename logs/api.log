@@ -1,0 +1,40 @@
+30-12-2023 01:19:00.617 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-12-2023 01:19:00.617 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-12-2023 01:19:00.617 [Gauge] [DEBUG] Adding specs from /Users/numanhan/Desktop/AutomationUIUmobApp/specs/example.spec
+30-12-2023 01:19:00.617 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-12-2023 01:19:00.617 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57718
+30-12-2023 01:19:00.617 [Gauge] [DEBUG] Watching directory: /Users/numanhan/Desktop/AutomationUIUmobApp/specs
+30-12-2023 01:19:00.617 [Gauge] [DEBUG] Found 1 files
+30-12-2023 01:19:25.012 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Vowels in English language are <vowelString>."}
+30-12-2023 01:19:25.012 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Vowels in English language are {}."  parameterizedStepValue:"Vowels in English language are <vowelString>."  parameters:"vowelString"}}
+30-12-2023 01:19:25.013 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"The word <word> has <expectedCount> vowels."}
+30-12-2023 01:19:25.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"The word {} has {} vowels."  parameterizedStepValue:"The word <word> has <expectedCount> vowels."  parameters:"word"  parameters:"expectedCount"}}
+30-12-2023 01:19:25.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Almost all words have vowels <wordsTable>"}
+30-12-2023 01:19:25.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Almost all words have vowels {}"  parameterizedStepValue:"Almost all words have vowels <wordsTable>"  parameters:"wordsTable"}}
+30-12-2023 01:19:31.985 [Gauge] [DEBUG] Spec file added / modified: /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec
+30-12-2023 01:19:31.986 [Gauge] [DEBUG] Spec file removed: /Users/numanhan/Desktop/AutomationUIUmobApp/specs/example.spec
+30-12-2023 01:21:20.774 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-12-2023 01:21:20.774 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-12-2023 01:21:20.774 [Gauge] [DEBUG] Adding specs from /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec
+30-12-2023 01:21:20.774 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-12-2023 01:21:20.774 [Gauge] [INFO] Gauge daemon initialized and listening on port: 57951
+30-12-2023 01:21:20.774 [Gauge] [DEBUG] Watching directory: /Users/numanhan/Desktop/AutomationUIUmobApp/specs
+30-12-2023 01:21:20.774 [Gauge] [DEBUG] Found 1 files
+30-12-2023 01:23:39.132 [Gauge] [DEBUG] Spec file added / modified: /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec
+30-12-2023 01:26:13.812 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-12-2023 01:26:13.812 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-12-2023 01:26:13.812 [Gauge] [DEBUG] Adding specs from /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec
+30-12-2023 01:26:13.812 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-12-2023 01:26:13.812 [Gauge] [INFO] Gauge daemon initialized and listening on port: 58812
+30-12-2023 01:26:13.812 [Gauge] [DEBUG] Watching directory: /Users/numanhan/Desktop/AutomationUIUmobApp/specs
+30-12-2023 01:26:13.813 [Gauge] [DEBUG] Found 1 files
+30-12-2023 01:26:19.134 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check the available button and click"}
+30-12-2023 01:26:19.134 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the available button and click"  parameterizedStepValue:"Check the available button and click"}}
+30-12-2023 01:26:19.137 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Wait <seconds> seconds"}
+30-12-2023 01:26:19.137 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Wait {} seconds"  parameterizedStepValue:"Wait <seconds> seconds"  parameters:"seconds"}}
+30-12-2023 01:26:19.139 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Close the launch screen"}
+30-12-2023 01:26:19.139 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Close the launch screen"  parameterizedStepValue:"Close the launch screen"}}
+30-12-2023 01:26:19.140 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check title of signup screen"}
+30-12-2023 01:26:19.140 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check title of signup screen"  parameterizedStepValue:"Check title of signup screen"}}
+30-12-2023 01:26:19.140 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check signup button text"}
+30-12-2023 01:26:19.140 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check signup button text"  parameterizedStepValue:"Check signup button text"}}
