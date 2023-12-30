@@ -1,9 +1,8 @@
 {
 	"Args": [
-		"run",
-		"--machine-readable",
-		"--hide-suggestion",
-		"--simple-console"
+		"run"
 	],
-	"FailedItems": []
+	"FailedItems": [
+		"specs/e2e.spec"
+	]
 }
