@@ -1,0 +1,9 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="Gauge with TestNG Suite" verbose="1">-->
+<!--    <test name="Gauge Tests">-->
+<!--        <classes>-->
+<!--            <class name=""/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+<!-- This file will be used for different test classes if  will be needed. For some e2e classes -->
