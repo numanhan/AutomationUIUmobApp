@@ -38,8 +38,10 @@ build/
 .DS_Store
 
 ### Project ###
-.gauge/
-.idea
-env
+.gauge/executionStatus.json
+.gauge/failures.json
+.gauge/lastRunCmd.json
+env/default/default.properties
+env/default/java.properties
 logs
-reports
+reports/
