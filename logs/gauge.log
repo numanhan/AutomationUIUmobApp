@@ -2275,3 +2275,698 @@ Total time taken: 423ms
 03-01-2024 20:31:43.288 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
 03-01-2024 20:31:43.288 [Gauge] [INFO] 
 Total time taken: 12.521s
+03-01-2024 20:34:49.186 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:34:49.187 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:34:49.188 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:34:49.188 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:34:49.188 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:34:49.189 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:34:49.189 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:34:49.190 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:34:49.190 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:34:49.199 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:34:49.199 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:34:49.199 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:34:49.199 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:34:49.199 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:34:49.199 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:34:49.199 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:34:49.199 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:34:49.199 [java] [DEBUG] ***** END *****
+03-01-2024 20:34:49.678 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:34:49.679 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:34:49.950 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:34:49.981 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:34:50.006 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:34:51.266 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:34:51.266 [java] [DEBUG] found java executable in java
+03-01-2024 20:34:51.267 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:34:51.267 [java] [DEBUG] stdout/stderr is logged to logs/55080-java.out
+03-01-2024 20:34:51.346 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:34:51.521 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:34:51.534 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:34:51.534 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:34:51.534 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:34:51.699 [java] [DEBUG] gauge-java took 351milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:34:51.699 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 351
+03-01-2024 20:34:51.699 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:34:51.802 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52778
+03-01-2024 20:34:51.862 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52778
+03-01-2024 20:34:51.862 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:34:52.311 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:34:52.313 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:34:52.314 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:34:52.314 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:34:52.314 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:34:52.314 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:34:52.314 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:34:52.314 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:34:52.315 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:34:52.550 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:34:52.550 [Gauge] [DEBUG] Run started
+03-01-2024 20:34:52.551 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:34:52.576 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:34:52.576 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52781
+03-01-2024 20:34:52.578 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52781
+03-01-2024 20:34:52.578 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:34:52.593 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:34:52.598 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:34:52.601 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:34:52.603 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:34:52.986 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:34:52.986 [java] [CRITICAL] process /usr/bin/java with pid 55097 quit unexpectedly. exit status 1
+03-01-2024 20:34:52.987 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:34:52.987 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:34:52.987 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:34:52.987 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:34:52.987 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:34:52.988 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:34:52.996 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:34:52.996 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:34:52.996 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:34:52.997 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:34:52.997 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:34:52.997 [Gauge] [INFO] 
+Total time taken: 436ms
+03-01-2024 20:35:03.277 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:35:03.277 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:35:03.278 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:35:03.278 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:35:03.278 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:35:03.280 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:35:03.280 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:35:03.280 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:35:03.280 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:35:03.291 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:35:03.291 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:35:03.291 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:35:03.291 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:35:03.291 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:35:03.291 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:35:03.291 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:35:03.291 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:35:03.291 [java] [DEBUG] ***** END *****
+03-01-2024 20:35:03.421 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:35:03.422 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:03.659 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:03.694 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:03.732 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:05.133 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:35:05.133 [java] [DEBUG] found java executable in java
+03-01-2024 20:35:05.133 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:35:05.133 [java] [DEBUG] stdout/stderr is logged to logs/55111-java.out
+03-01-2024 20:35:05.204 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:35:05.368 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:35:05.381 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:35:05.381 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:35:05.381 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:35:05.578 [java] [DEBUG] gauge-java took 371milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:35:05.578 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 371
+03-01-2024 20:35:05.578 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:35:05.658 [java] [DEBUG] started gRPC server on port 52811
+03-01-2024 20:35:05.658 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52811
+03-01-2024 20:35:05.726 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52811
+03-01-2024 20:35:05.726 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:35:06.076 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:35:06.077 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:35:06.079 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:35:06.079 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:35:06.282 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:35:06.282 [Gauge] [DEBUG] Run started
+03-01-2024 20:35:06.283 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:35:06.308 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:35:06.308 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52814
+03-01-2024 20:35:06.310 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52814
+03-01-2024 20:35:06.310 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:35:06.328 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:35:06.335 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:35:06.338 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:35:06.340 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:35:06.732 [java] [CRITICAL] process /usr/bin/java with pid 55130 quit unexpectedly. exit status 1
+03-01-2024 20:35:06.732 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:35:06.733 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:35:06.734 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:35:06.734 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:35:06.735 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:35:06.735 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:35:06.736 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:35:06.746 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:35:06.746 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:35:06.746 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:35:06.746 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:35:06.746 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:35:06.746 [Gauge] [INFO] 
+Total time taken: 452ms
+03-01-2024 20:35:13.233 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:35:13.233 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:35:13.233 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:35:13.233 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:35:13.233 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:35:13.234 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:35:13.234 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:35:13.234 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:35:13.234 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:35:13.239 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:35:13.239 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:35:13.239 [java] [DEBUG] JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:35:13.239 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:35:13.239 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:35:13.239 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:35:13.239 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:35:13.239 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:35:13.239 [java] [DEBUG] ***** END *****
+03-01-2024 20:35:13.382 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:35:13.383 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:13.627 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:13.667 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:13.711 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:35:14.802 [java] [DEBUG] classpath set to /Users/numanhan/Desktop/AutomationUIUmobApp/target/test-classes:/Users/numanhan/Desktop/AutomationUIUmobApp/target/classes:/Users/numanhan/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/Users/numanhan/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/numanhan/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/numanhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/numanhan/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/Users/numanhan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/numanhan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/numanhan/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/Users/numanhan/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/numanhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/numanhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/numanhan/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/numanhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/numanhan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/Users/numanhan/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/numanhan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/Users/numanhan/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/numanhan/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/numanhan/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/numanhan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/numanhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/numanhan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/numanhan/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/numanhan/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/numanhan/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/numanhan/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/numanhan/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/numanhan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/numanhan/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/numanhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/numanhan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/numanhan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/numanhan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/numanhan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/numanhan/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/numanhan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+03-01-2024 20:35:14.814 [java] [DEBUG] found java executable in /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java
+03-01-2024 20:35:14.814 [java] [DEBUG] running - /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:35:14.814 [java] [DEBUG] stdout/stderr is logged to logs/55164-java.out
+03-01-2024 20:35:14.864 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:35:15.050 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:35:15.083 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:35:15.083 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:35:15.083 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:35:15.313 [java] [DEBUG] gauge-java took 446milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:35:15.313 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 446
+03-01-2024 20:35:15.313 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:35:15.397 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52837
+03-01-2024 20:35:15.471 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52837
+03-01-2024 20:35:15.471 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:35:15.975 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:35:15.985 [java] [DEBUG] Comparing 'base.BaseTest.waitOneSec' and 'base.BaseTest.waitOneSec'
+03-01-2024 20:35:15.986 [java] [DEBUG] Found Wait {} seconds in current project scope.
+03-01-2024 20:35:15.986 [java] [DEBUG] Comparing 'test.LaunchTest.checkButton' and 'test.LaunchTest.checkButton'
+03-01-2024 20:35:15.986 [java] [DEBUG] Found Close the launch screen in current project scope.
+03-01-2024 20:35:15.986 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupButtonText' and 'test.SignUpTest.checkSignupButtonText'
+03-01-2024 20:35:15.986 [java] [DEBUG] Found Check signup button text in current project scope.
+03-01-2024 20:35:15.986 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupScreenTitle' and 'test.SignUpTest.checkSignupScreenTitle'
+03-01-2024 20:35:15.986 [java] [DEBUG] Found Check title of signup screen in current project scope.
+03-01-2024 20:35:15.986 [java] [DEBUG] Comparing 'test.LaunchTest.testAvailableButton' and 'test.LaunchTest.testAvailableButton'
+03-01-2024 20:35:15.986 [java] [DEBUG] Found Check the available button and click in current project scope.
+03-01-2024 20:35:15.986 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:35:15.989 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:35:15.989 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:35:16.290 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:35:16.290 [Gauge] [DEBUG] Run started
+03-01-2024 20:35:16.291 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:35:16.313 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:35:16.314 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52843
+03-01-2024 20:35:16.315 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52843
+03-01-2024 20:35:16.315 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:35:16.327 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:35:16.330 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:35:23.006 [java] [ERROR] Jan 03, 2024 8:35:22 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+03-01-2024 20:35:23.006 [java] [ERROR] INFO: Detected dialect: W3C
+03-01-2024 20:35:23.023 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:35:23.030 [java] [DEBUG] Executing 'Check the available button and click' using 'class test.LaunchTest.testAvailableButton
+03-01-2024 20:35:26.915 [Gauge] [DEBUG] * Close the launch screen
+03-01-2024 20:35:26.917 [java] [DEBUG] Executing 'Close the launch screen' using 'class test.LaunchTest.checkButton
+03-01-2024 20:35:28.707 [Gauge] [DEBUG] * Check title of signup screen
+03-01-2024 20:35:28.710 [java] [DEBUG] Executing 'Check title of signup screen' using 'class test.SignUpTest.checkSignupScreenTitle
+03-01-2024 20:35:28.796 [Gauge] [DEBUG] * Check signup button text
+03-01-2024 20:35:28.799 [java] [DEBUG] Executing 'Check signup button text' using 'class test.SignUpTest.checkSignupButtonText
+03-01-2024 20:35:28.975 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:35:28.984 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:35:28.984 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:35:28.984 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:35:28.985 [java] [DEBUG] Killing Java runner...
+03-01-2024 20:35:28.985 [java] [DEBUG] Stopping execution pool...
+03-01-2024 20:35:28.985 [java] [DEBUG] Shutting down grpc server...
+03-01-2024 20:35:28.988 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:35:28.988 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:35:28.988 [Gauge] [INFO] 
+Total time taken: 12.683s
+03-01-2024 20:36:09.746 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:36:09.748 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:36:09.748 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:36:09.748 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:36:09.748 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:36:09.750 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:36:09.751 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:36:09.751 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:36:09.751 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:36:09.763 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:36:09.763 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:36:09.763 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:36:09.763 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:36:09.763 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:36:09.763 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:36:09.763 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_custom_build_path: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_custom_compile_dir: 
+03-01-2024 20:36:09.763 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:36:09.763 [java] [DEBUG] ***** END *****
+03-01-2024 20:36:09.895 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:36:09.895 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:36:10.032 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:36:10.068 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:36:10.096 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:36:11.754 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/l5/1xk9b3914jqdtz9kzsnkz8ph0000gn/T/gauge_temp1001245315/698275d65ae39d5f0eb33c7fbc910e43]
+03-01-2024 20:36:11.754 [java] [DEBUG] stdout/stderr is logged to logs/55241-javac.out
+03-01-2024 20:36:12.115 [java] [ERROR] src/test/java/base/BasePage.java:3: error: package io.appium.java_client.android does not exist
+03-01-2024 20:36:12.115 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 20:36:12.115 [java] [ERROR] ^
+03-01-2024 20:36:12.120 [java] [ERROR] src/test/java/base/BasePage.java:4: error: package org.junit does not exist
+03-01-2024 20:36:12.120 [java] [ERROR] import org.junit.Assert;
+03-01-2024 20:36:12.120 [java] [ERROR] ^
+03-01-2024 20:36:12.128 [java] [ERROR] src/test/java/base/BasePage.java:6: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 20:36:12.128 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+03-01-2024 20:36:12.128 [java] [ERROR] ^
+03-01-2024 20:36:12.132 [java] [ERROR] src/test/java/base/BasePage.java:7: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 20:36:12.132 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+03-01-2024 20:36:12.132 [java] [ERROR] ^
+03-01-2024 20:36:12.137 [java] [ERROR] src/test/java/base/BasePage.java:12: error: cannot find symbol
+03-01-2024 20:36:12.137 [java] [ERROR] public AndroidDriver driver;
+03-01-2024 20:36:12.137 [java] [ERROR] ^
+03-01-2024 20:36:12.137 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.137 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.138 [java] [ERROR] src/test/java/base/BasePage.java:13: error: cannot find symbol
+03-01-2024 20:36:12.138 [java] [ERROR] public WebDriverWait wait;
+03-01-2024 20:36:12.138 [java] [ERROR] ^
+03-01-2024 20:36:12.138 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 20:36:12.138 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.138 [java] [ERROR] src/test/java/base/BasePage.java:14: error: cannot find symbol
+03-01-2024 20:36:12.138 [java] [ERROR] public BasePage(AndroidDriver driver) {
+03-01-2024 20:36:12.138 [java] [ERROR] ^
+03-01-2024 20:36:12.138 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.138 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.138 [java] [ERROR] src/test/java/base/BasePage.java:19: error: cannot find symbol
+03-01-2024 20:36:12.138 [java] [ERROR] public WebElement findElement(By by) {
+03-01-2024 20:36:12.138 [java] [ERROR] ^
+03-01-2024 20:36:12.138 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.138 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.138 [java] [ERROR] src/test/java/base/BasePage.java:19: error: cannot find symbol
+03-01-2024 20:36:12.138 [java] [ERROR] public WebElement findElement(By by) {
+03-01-2024 20:36:12.138 [java] [ERROR] ^
+03-01-2024 20:36:12.138 [java] [ERROR] symbol:   class WebElement
+03-01-2024 20:36:12.138 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.139 [java] [ERROR] src/test/java/base/BasePage.java:24: error: cannot find symbol
+03-01-2024 20:36:12.139 [java] [ERROR] public void clickElement(By by) {
+03-01-2024 20:36:12.139 [java] [ERROR] ^
+03-01-2024 20:36:12.139 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.139 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.139 [java] [ERROR] src/test/java/base/BasePage.java:31: error: cannot find symbol
+03-01-2024 20:36:12.139 [java] [ERROR] public String getText(By by) {
+03-01-2024 20:36:12.139 [java] [ERROR] ^
+03-01-2024 20:36:12.139 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.139 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.148 [java] [ERROR] src/test/java/base/BasePage.java:35: error: cannot find symbol
+03-01-2024 20:36:12.149 [java] [ERROR] public boolean isVisible(By by) {
+03-01-2024 20:36:12.149 [java] [ERROR] ^
+03-01-2024 20:36:12.149 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.149 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.149 [java] [ERROR] src/test/java/base/BasePage.java:39: error: cannot find symbol
+03-01-2024 20:36:12.149 [java] [ERROR] public void sendKeys(By by, CharSequence text) {
+03-01-2024 20:36:12.149 [java] [ERROR] ^
+03-01-2024 20:36:12.149 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.149 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.149 [java] [ERROR] src/test/java/base/BasePage.java:46: error: cannot find symbol
+03-01-2024 20:36:12.149 [java] [ERROR] protected void assertTextEquals(By by, String expectedText) {
+03-01-2024 20:36:12.149 [java] [ERROR] ^
+03-01-2024 20:36:12.149 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.149 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.151 [java] [ERROR] src/test/java/base/BasePage.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 20:36:12.151 [java] [ERROR] import org.openqa.selenium.*;
+03-01-2024 20:36:12.151 [java] [ERROR] ^
+03-01-2024 20:36:12.155 [java] [ERROR] src/test/java/base/BaseTest.java:6: error: package io.appium.java_client does not exist
+03-01-2024 20:36:12.155 [java] [ERROR] import io.appium.java_client.MobileElement;
+03-01-2024 20:36:12.155 [java] [ERROR] ^
+03-01-2024 20:36:12.157 [java] [ERROR] src/test/java/base/BaseTest.java:7: error: package io.appium.java_client.android does not exist
+03-01-2024 20:36:12.157 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 20:36:12.157 [java] [ERROR] ^
+03-01-2024 20:36:12.160 [java] [ERROR] src/test/java/base/BaseTest.java:8: error: package io.appium.java_client.android.nativekey does not exist
+03-01-2024 20:36:12.160 [java] [ERROR] import io.appium.java_client.android.nativekey.AndroidKey;
+03-01-2024 20:36:12.160 [java] [ERROR] ^
+03-01-2024 20:36:12.166 [java] [ERROR] src/test/java/base/BaseTest.java:9: error: package org.openqa.selenium.remote does not exist
+03-01-2024 20:36:12.166 [java] [ERROR] import org.openqa.selenium.remote.DesiredCapabilities;
+03-01-2024 20:36:12.166 [java] [ERROR] ^
+03-01-2024 20:36:12.168 [java] [ERROR] src/test/java/base/BaseTest.java:10: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 20:36:12.168 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+03-01-2024 20:36:12.168 [java] [ERROR] ^
+03-01-2024 20:36:12.173 [java] [ERROR] src/test/java/base/BaseTest.java:13: error: package io.appium.java_client.android.nativekey does not exist
+03-01-2024 20:36:12.173 [java] [ERROR] import io.appium.java_client.android.nativekey.KeyEvent;
+03-01-2024 20:36:12.173 [java] [ERROR] ^
+03-01-2024 20:36:12.175 [java] [ERROR] src/test/java/base/BaseTest.java:16: error: cannot find symbol
+03-01-2024 20:36:12.175 [java] [ERROR] protected static AndroidDriver driver;
+03-01-2024 20:36:12.175 [java] [ERROR] ^
+03-01-2024 20:36:12.175 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.175 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.175 [java] [ERROR] src/test/java/base/BaseTest.java:17: error: cannot find symbol
+03-01-2024 20:36:12.175 [java] [ERROR] protected static WebDriverWait wait;
+03-01-2024 20:36:12.175 [java] [ERROR] ^
+03-01-2024 20:36:12.175 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 20:36:12.175 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.178 [java] [ERROR] src/test/java/screen/LaunchScreen.java:4: error: package io.appium.java_client.android does not exist
+03-01-2024 20:36:12.178 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 20:36:12.178 [java] [ERROR] ^
+03-01-2024 20:36:12.180 [java] [ERROR] src/test/java/screen/LaunchScreen.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 20:36:12.180 [java] [ERROR] import org.openqa.selenium.By;
+03-01-2024 20:36:12.180 [java] [ERROR] ^
+03-01-2024 20:36:12.181 [java] [ERROR] src/test/java/screen/LaunchScreen.java:6: error: package org.openqa.selenium does not exist
+03-01-2024 20:36:12.181 [java] [ERROR] import org.openqa.selenium.WebElement;
+03-01-2024 20:36:12.181 [java] [ERROR] ^
+03-01-2024 20:36:12.183 [java] [ERROR] src/test/java/screen/LaunchScreen.java:7: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 20:36:12.183 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+03-01-2024 20:36:12.183 [java] [ERROR] ^
+03-01-2024 20:36:12.185 [java] [ERROR] src/test/java/screen/LaunchScreen.java:11: error: cannot find symbol
+03-01-2024 20:36:12.185 [java] [ERROR] public LaunchScreen(AndroidDriver driver) {
+03-01-2024 20:36:12.185 [java] [ERROR] ^
+03-01-2024 20:36:12.185 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.185 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.185 [java] [ERROR] src/test/java/screen/LaunchScreen.java:15: error: cannot find symbol
+03-01-2024 20:36:12.185 [java] [ERROR] public static final By welcomeText = By.xpath("//*[@text='Welcome to umob']");
+03-01-2024 20:36:12.185 [java] [ERROR] ^
+03-01-2024 20:36:12.185 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.185 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.186 [java] [ERROR] src/test/java/screen/LaunchScreen.java:16: error: cannot find symbol
+03-01-2024 20:36:12.186 [java] [ERROR] public static final By closeButton = By.id("com.umob.umob:id/intercom_close");
+03-01-2024 20:36:12.186 [java] [ERROR] ^
+03-01-2024 20:36:12.186 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.186 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.186 [java] [ERROR] src/test/java/screen/LaunchScreen.java:17: error: cannot find symbol
+03-01-2024 20:36:12.186 [java] [ERROR] public static final By getStartedButton = By.xpath("//android.widget.TextView[@text=\"Let's get started\"]\n");
+03-01-2024 20:36:12.186 [java] [ERROR] ^
+03-01-2024 20:36:12.186 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.186 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.186 [java] [ERROR] src/test/java/screen/LaunchScreen.java:18: error: cannot find symbol
+03-01-2024 20:36:12.186 [java] [ERROR] public static final By nextButton = By.xpath("//android.widget.TextView[contains(@content-desc, 'Next')]");
+03-01-2024 20:36:12.186 [java] [ERROR] ^
+03-01-2024 20:36:12.186 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.186 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.188 [java] [ERROR] src/test/java/screen/SignUpScreen.java:4: error: package io.appium.java_client.android does not exist
+03-01-2024 20:36:12.188 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 20:36:12.188 [java] [ERROR] ^
+03-01-2024 20:36:12.190 [java] [ERROR] src/test/java/screen/SignUpScreen.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 20:36:12.190 [java] [ERROR] import org.openqa.selenium.By;
+03-01-2024 20:36:12.190 [java] [ERROR] ^
+03-01-2024 20:36:12.191 [java] [ERROR] src/test/java/screen/SignUpScreen.java:8: error: cannot find symbol
+03-01-2024 20:36:12.191 [java] [ERROR] public SignUpScreen(AndroidDriver driver) {
+03-01-2024 20:36:12.191 [java] [ERROR] ^
+03-01-2024 20:36:12.191 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.191 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.191 [java] [ERROR] src/test/java/screen/SignUpScreen.java:12: error: cannot find symbol
+03-01-2024 20:36:12.191 [java] [ERROR] public static final By signupTitle = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
+03-01-2024 20:36:12.191 [java] [ERROR] ^
+03-01-2024 20:36:12.191 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.191 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.191 [java] [ERROR] src/test/java/screen/SignUpScreen.java:13: error: cannot find symbol
+03-01-2024 20:36:12.191 [java] [ERROR] public static final By signUpButton = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup");
+03-01-2024 20:36:12.191 [java] [ERROR] ^
+03-01-2024 20:36:12.191 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.191 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.191 [java] [ERROR] src/test/java/screen/SignUpScreen.java:15: error: cannot find symbol
+03-01-2024 20:36:12.191 [java] [ERROR] public static final By signUpButtonGetText = By.xpath("//android.widget.TextView[@content-desc=\"undefined-text\"]");
+03-01-2024 20:36:12.191 [java] [ERROR] ^
+03-01-2024 20:36:12.191 [java] [ERROR] symbol:   class By
+03-01-2024 20:36:12.191 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.204 [java] [ERROR] src/test/java/base/BasePage.java:16: error: cannot find symbol
+03-01-2024 20:36:12.204 [java] [ERROR] wait = new WebDriverWait(driver, 30, 500);
+03-01-2024 20:36:12.204 [java] [ERROR] ^
+03-01-2024 20:36:12.204 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 20:36:12.204 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.206 [java] [ERROR] src/test/java/base/BasePage.java:20: error: cannot find symbol
+03-01-2024 20:36:12.206 [java] [ERROR] wait.until(ExpectedConditions.presenceOfElementLocated(by));
+03-01-2024 20:36:12.206 [java] [ERROR] ^
+03-01-2024 20:36:12.206 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.206 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.207 [java] [ERROR] src/test/java/base/BasePage.java:26: error: cannot find symbol
+03-01-2024 20:36:12.207 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(by)).click();
+03-01-2024 20:36:12.207 [java] [ERROR] ^
+03-01-2024 20:36:12.207 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.207 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.207 [java] [ERROR] src/test/java/base/BasePage.java:27: error: cannot find symbol
+03-01-2024 20:36:12.207 [java] [ERROR] }catch (NoSuchElementException e) {
+03-01-2024 20:36:12.207 [java] [ERROR] ^
+03-01-2024 20:36:12.207 [java] [ERROR] symbol:   class NoSuchElementException
+03-01-2024 20:36:12.207 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.207 [java] [ERROR] src/test/java/base/BasePage.java:32: error: cannot find symbol
+03-01-2024 20:36:12.207 [java] [ERROR] return wait.until(ExpectedConditions.presenceOfElementLocated(by)).getText();
+03-01-2024 20:36:12.207 [java] [ERROR] ^
+03-01-2024 20:36:12.207 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.207 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.208 [java] [ERROR] src/test/java/base/BasePage.java:36: error: cannot find symbol
+03-01-2024 20:36:12.208 [java] [ERROR] return wait.until(ExpectedConditions.presenceOfElementLocated(by)).isDisplayed();
+03-01-2024 20:36:12.208 [java] [ERROR] ^
+03-01-2024 20:36:12.208 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.208 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.208 [java] [ERROR] src/test/java/base/BasePage.java:41: error: cannot find symbol
+03-01-2024 20:36:12.208 [java] [ERROR] WebElement element = findElement(by);
+03-01-2024 20:36:12.208 [java] [ERROR] ^
+03-01-2024 20:36:12.208 [java] [ERROR] symbol:   class WebElement
+03-01-2024 20:36:12.208 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.209 [java] [ERROR] src/test/java/base/BasePage.java:42: error: cannot find symbol
+03-01-2024 20:36:12.209 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(element)).sendKeys(text);
+03-01-2024 20:36:12.209 [java] [ERROR] ^
+03-01-2024 20:36:12.209 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.209 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.209 [java] [ERROR] src/test/java/base/BasePage.java:43: error: cannot find symbol
+03-01-2024 20:36:12.209 [java] [ERROR] }catch (NoSuchElementException e) {
+03-01-2024 20:36:12.209 [java] [ERROR] ^
+03-01-2024 20:36:12.209 [java] [ERROR] symbol:   class NoSuchElementException
+03-01-2024 20:36:12.209 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.209 [java] [ERROR] src/test/java/base/BasePage.java:48: error: cannot find symbol
+03-01-2024 20:36:12.209 [java] [ERROR] Assert.assertEquals(actualText, expectedText);
+03-01-2024 20:36:12.209 [java] [ERROR] ^
+03-01-2024 20:36:12.209 [java] [ERROR] symbol:   variable Assert
+03-01-2024 20:36:12.209 [java] [ERROR] location: class BasePage
+03-01-2024 20:36:12.211 [java] [ERROR] src/test/java/base/BaseTest.java:27: error: cannot find symbol
+03-01-2024 20:36:12.211 [java] [ERROR] DesiredCapabilities caps = new DesiredCapabilities();
+03-01-2024 20:36:12.211 [java] [ERROR] ^
+03-01-2024 20:36:12.211 [java] [ERROR] symbol:   class DesiredCapabilities
+03-01-2024 20:36:12.211 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.211 [java] [ERROR] src/test/java/base/BaseTest.java:27: error: cannot find symbol
+03-01-2024 20:36:12.211 [java] [ERROR] DesiredCapabilities caps = new DesiredCapabilities();
+03-01-2024 20:36:12.211 [java] [ERROR] ^
+03-01-2024 20:36:12.211 [java] [ERROR] symbol:   class DesiredCapabilities
+03-01-2024 20:36:12.211 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.211 [java] [ERROR] src/test/java/base/BaseTest.java:37: error: cannot find symbol
+03-01-2024 20:36:12.212 [java] [ERROR] driver = new AndroidDriver<MobileElement>(new URL(url), caps);
+03-01-2024 20:36:12.212 [java] [ERROR] ^
+03-01-2024 20:36:12.212 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 20:36:12.212 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.212 [java] [ERROR] src/test/java/base/BaseTest.java:37: error: cannot find symbol
+03-01-2024 20:36:12.212 [java] [ERROR] driver = new AndroidDriver<MobileElement>(new URL(url), caps);
+03-01-2024 20:36:12.212 [java] [ERROR] ^
+03-01-2024 20:36:12.212 [java] [ERROR] symbol:   class MobileElement
+03-01-2024 20:36:12.212 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.213 [java] [ERROR] src/test/java/base/BaseTest.java:38: error: cannot find symbol
+03-01-2024 20:36:12.213 [java] [ERROR] wait = new WebDriverWait(driver, 10);
+03-01-2024 20:36:12.213 [java] [ERROR] ^
+03-01-2024 20:36:12.213 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 20:36:12.213 [java] [ERROR] location: class BaseTest
+03-01-2024 20:36:12.214 [java] [ERROR] src/test/java/screen/LaunchScreen.java:15: error: cannot find symbol
+03-01-2024 20:36:12.214 [java] [ERROR] public static final By welcomeText = By.xpath("//*[@text='Welcome to umob']");
+03-01-2024 20:36:12.214 [java] [ERROR] ^
+03-01-2024 20:36:12.214 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.214 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.214 [java] [ERROR] src/test/java/screen/LaunchScreen.java:16: error: cannot find symbol
+03-01-2024 20:36:12.214 [java] [ERROR] public static final By closeButton = By.id("com.umob.umob:id/intercom_close");
+03-01-2024 20:36:12.214 [java] [ERROR] ^
+03-01-2024 20:36:12.214 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.214 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.214 [java] [ERROR] src/test/java/screen/LaunchScreen.java:17: error: cannot find symbol
+03-01-2024 20:36:12.214 [java] [ERROR] public static final By getStartedButton = By.xpath("//android.widget.TextView[@text=\"Let's get started\"]\n");
+03-01-2024 20:36:12.214 [java] [ERROR] ^
+03-01-2024 20:36:12.214 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.214 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.214 [java] [ERROR] src/test/java/screen/LaunchScreen.java:18: error: cannot find symbol
+03-01-2024 20:36:12.214 [java] [ERROR] public static final By nextButton = By.xpath("//android.widget.TextView[contains(@content-desc, 'Next')]");
+03-01-2024 20:36:12.214 [java] [ERROR] ^
+03-01-2024 20:36:12.214 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.214 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.215 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 20:36:12.215 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 20:36:12.215 [java] [ERROR] ^
+03-01-2024 20:36:12.215 [java] [ERROR] symbol:   class WebElement
+03-01-2024 20:36:12.215 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.215 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 20:36:12.215 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 20:36:12.215 [java] [ERROR] ^
+03-01-2024 20:36:12.215 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 20:36:12.215 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.215 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 20:36:12.215 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 20:36:12.215 [java] [ERROR] ^
+03-01-2024 20:36:12.216 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.216 [java] [ERROR] location: class LaunchScreen
+03-01-2024 20:36:12.218 [java] [ERROR] src/test/java/screen/SignUpScreen.java:12: error: cannot find symbol
+03-01-2024 20:36:12.218 [java] [ERROR] public static final By signupTitle = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
+03-01-2024 20:36:12.218 [java] [ERROR] ^
+03-01-2024 20:36:12.218 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.218 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.219 [java] [ERROR] src/test/java/screen/SignUpScreen.java:13: error: cannot find symbol
+03-01-2024 20:36:12.219 [java] [ERROR] public static final By signUpButton = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup");
+03-01-2024 20:36:12.219 [java] [ERROR] ^
+03-01-2024 20:36:12.219 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.219 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.219 [java] [ERROR] src/test/java/screen/SignUpScreen.java:15: error: cannot find symbol
+03-01-2024 20:36:12.219 [java] [ERROR] public static final By signUpButtonGetText = By.xpath("//android.widget.TextView[@content-desc=\"undefined-text\"]");
+03-01-2024 20:36:12.219 [java] [ERROR] ^
+03-01-2024 20:36:12.219 [java] [ERROR] symbol:   variable By
+03-01-2024 20:36:12.219 [java] [ERROR] location: class SignUpScreen
+03-01-2024 20:36:12.221 [java] [ERROR] Note: src/test/java/base/BaseTest.java uses or overrides a deprecated API.
+03-01-2024 20:36:12.221 [java] [ERROR] Note: Recompile with -Xlint:deprecation for details.
+03-01-2024 20:36:12.221 [java] [ERROR] 63 errors
+03-01-2024 20:36:12.243 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:36:12.243 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:39:14.200 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:39:14.201 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:39:14.201 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:39:14.201 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:39:14.201 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:39:14.203 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:39:14.203 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:39:14.203 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:39:14.203 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:39:14.207 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:39:14.207 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:39:14.208 [java] [DEBUG] JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:39:14.208 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:39:14.208 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:39:14.208 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:39:14.208 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_custom_build_path: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_custom_compile_dir: 
+03-01-2024 20:39:14.208 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:39:14.208 [java] [DEBUG] ***** END *****
+03-01-2024 20:39:14.368 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:39:14.369 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:39:14.493 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:39:14.524 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:39:14.557 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:39:15.837 [java] [DEBUG] classpath set to /Users/numanhan/Desktop/AutomationUIUmobApp/target/test-classes:/Users/numanhan/Desktop/AutomationUIUmobApp/target/classes:/Users/numanhan/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/Users/numanhan/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/numanhan/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/numanhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/numanhan/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/Users/numanhan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/numanhan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/numanhan/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/Users/numanhan/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/numanhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/numanhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/numanhan/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/numanhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/numanhan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/Users/numanhan/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/numanhan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/Users/numanhan/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/numanhan/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/numanhan/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/numanhan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/numanhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/numanhan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/numanhan/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/numanhan/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/numanhan/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/numanhan/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/numanhan/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/numanhan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/numanhan/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/numanhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/numanhan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/numanhan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/numanhan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/numanhan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/numanhan/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/numanhan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+03-01-2024 20:39:15.847 [java] [DEBUG] found java executable in /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java
+03-01-2024 20:39:15.847 [java] [DEBUG] running - /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:39:15.847 [java] [DEBUG] stdout/stderr is logged to logs/55534-java.out
+03-01-2024 20:39:15.893 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:39:16.087 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:39:16.108 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:39:16.108 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:39:16.108 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:39:16.267 [java] [DEBUG] gauge-java took 371milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:39:16.267 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 371
+03-01-2024 20:39:16.267 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:39:16.389 [java] [DEBUG] started gRPC server on port 53714
+03-01-2024 20:39:16.389 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53714
+03-01-2024 20:39:16.444 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53714
+03-01-2024 20:39:16.444 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:39:17.082 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:39:17.085 [java] [DEBUG] Comparing 'base.BaseTest.waitOneSec' and 'base.BaseTest.waitOneSec'
+03-01-2024 20:39:17.092 [java] [DEBUG] Found Wait {} seconds in current project scope.
+03-01-2024 20:39:17.093 [java] [DEBUG] Comparing 'test.LaunchTest.checkButton' and 'test.LaunchTest.checkButton'
+03-01-2024 20:39:17.093 [java] [DEBUG] Found Close the launch screen in current project scope.
+03-01-2024 20:39:17.093 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupButtonText' and 'test.SignUpTest.checkSignupButtonText'
+03-01-2024 20:39:17.093 [java] [DEBUG] Found Check signup button text in current project scope.
+03-01-2024 20:39:17.093 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupScreenTitle' and 'test.SignUpTest.checkSignupScreenTitle'
+03-01-2024 20:39:17.093 [java] [DEBUG] Found Check title of signup screen in current project scope.
+03-01-2024 20:39:17.093 [java] [DEBUG] Comparing 'test.LaunchTest.testAvailableButton' and 'test.LaunchTest.testAvailableButton'
+03-01-2024 20:39:17.093 [java] [DEBUG] Found Check the available button and click in current project scope.
+03-01-2024 20:39:17.093 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:39:17.098 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:39:17.098 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:39:17.098 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:39:17.098 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:39:17.098 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:39:17.098 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:39:17.410 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:39:17.410 [Gauge] [DEBUG] Run started
+03-01-2024 20:39:17.411 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:39:17.417 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:39:17.417 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53717
+03-01-2024 20:39:17.418 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53717
+03-01-2024 20:39:17.418 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:39:17.428 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:39:17.431 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:39:23.987 [java] [ERROR] Jan 03, 2024 8:39:23 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+03-01-2024 20:39:23.987 [java] [ERROR] INFO: Detected dialect: W3C
+03-01-2024 20:39:23.999 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:39:24.003 [java] [DEBUG] Executing 'Check the available button and click' using 'class test.LaunchTest.testAvailableButton
+03-01-2024 20:39:37.176 [Gauge] [DEBUG] * Close the launch screen
+03-01-2024 20:39:37.180 [java] [DEBUG] Executing 'Close the launch screen' using 'class test.LaunchTest.checkButton
+03-01-2024 20:39:38.911 [Gauge] [DEBUG] * Check title of signup screen
+03-01-2024 20:39:38.915 [java] [DEBUG] Executing 'Check title of signup screen' using 'class test.SignUpTest.checkSignupScreenTitle
+03-01-2024 20:39:39.015 [Gauge] [DEBUG] * Check signup button text
+03-01-2024 20:39:39.017 [java] [DEBUG] Executing 'Check signup button text' using 'class test.SignUpTest.checkSignupButtonText
+03-01-2024 20:39:39.225 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:39:39.230 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:39:39.230 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:39:39.230 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:39:39.231 [java] [DEBUG] Killing Java runner...
+03-01-2024 20:39:39.232 [java] [DEBUG] Stopping execution pool...
+03-01-2024 20:39:39.232 [java] [DEBUG] Shutting down grpc server...
+03-01-2024 20:39:39.234 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:39:39.234 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:39:39.234 [Gauge] [INFO] 
+Total time taken: 21.814s

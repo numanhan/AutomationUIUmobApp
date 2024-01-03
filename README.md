@@ -42,7 +42,7 @@ npm install -g gauge
 3. Open the terminal or command prompt and navigate to the project directory.
 4. Run the tests by executing the following command:
 ```bash
-gauge run specs
+mvn test
 ```
 ## Contributing
 - If you have any questions or suggestions regarding the project, please share them in the [Issues](https://github.com/numanhan/AutomationUIUmobApp/issues) section.
