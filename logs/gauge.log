@@ -179,3 +179,2099 @@ Error : exit status 1
 30-12-2023 01:39:33.478 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
 30-12-2023 01:39:33.478 [Gauge] [INFO] 
 Total time taken: 446ms
+03-01-2024 19:29:53.649 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:29:53.651 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:29:53.651 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:29:53.652 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:29:53.652 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:29:53.654 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:29:53.654 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:29:53.655 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:29:53.655 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:29:53.666 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:29:53.666 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:29:53.666 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:29:53.666 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:29:53.666 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:29:53.666 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:29:53.666 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:29:53.666 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:29:53.666 [java] [DEBUG] ***** END *****
+03-01-2024 19:29:54.003 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:29:54.004 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:29:54.234 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:29:54.494 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:29:54.534 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:29:55.649 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:29:55.649 [java] [DEBUG] found java executable in java
+03-01-2024 19:29:55.649 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:29:55.649 [java] [DEBUG] stdout/stderr is logged to logs/52615-java.out
+03-01-2024 19:29:55.784 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:29:55.962 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:29:55.975 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:29:55.975 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:29:55.975 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:29:56.239 [java] [DEBUG] gauge-java took 453milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:29:56.239 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 453
+03-01-2024 19:29:56.239 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:29:56.307 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61265
+03-01-2024 19:29:56.364 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61265
+03-01-2024 19:29:56.364 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:29:56.645 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:29:56.647 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:29:56.649 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:29:56.649 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:29:56.912 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:29:56.912 [Gauge] [DEBUG] Run started
+03-01-2024 19:29:56.912 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:29:56.980 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61277
+03-01-2024 19:29:56.982 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61277
+03-01-2024 19:29:56.983 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:29:57.002 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:29:57.012 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:29:57.015 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:29:57.019 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:29:57.410 [java] [CRITICAL] process /usr/bin/java with pid 52636 quit unexpectedly. exit status 1
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:29:57.410 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:29:57.411 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:29:57.411 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:29:57.411 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:29:57.411 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:29:57.411 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:29:57.412 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:29:57.422 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:29:57.422 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:29:57.422 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:29:57.423 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:29:57.423 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:29:57.423 [Gauge] [INFO] 
+Total time taken: 498ms
+03-01-2024 19:31:53.243 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:31:53.244 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:31:53.245 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:31:53.245 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:31:53.245 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:31:53.248 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:31:53.248 [Gauge] [ERROR] Specs directory /specs/e2e.spec does not exist.
+03-01-2024 19:31:58.808 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:31:58.808 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:31:58.808 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:31:58.808 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:31:58.808 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:31:58.809 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:31:58.809 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:31:58.809 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:31:58.809 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:31:58.820 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:31:58.820 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:31:58.820 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:31:58.820 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:31:58.820 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:31:58.820 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:31:58.820 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:31:58.820 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:31:58.820 [java] [DEBUG] ***** END *****
+03-01-2024 19:31:59.283 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:31:59.284 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:31:59.425 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:31:59.463 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:31:59.501 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:32:00.592 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:32:00.592 [java] [DEBUG] found java executable in java
+03-01-2024 19:32:00.593 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:32:00.593 [java] [DEBUG] stdout/stderr is logged to logs/52678-java.out
+03-01-2024 19:32:00.732 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:32:00.911 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:32:00.928 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:32:00.928 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:32:00.928 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:32:01.187 [java] [DEBUG] gauge-java took 453milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:32:01.188 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 453
+03-01-2024 19:32:01.188 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:32:01.261 [java] [DEBUG] started gRPC server on port 61487
+03-01-2024 19:32:01.261 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61487
+03-01-2024 19:32:01.327 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61487
+03-01-2024 19:32:01.327 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:32:01.767 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:32:01.769 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:32:01.771 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:32:01.771 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:32:01.977 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:32:01.977 [Gauge] [DEBUG] Run started
+03-01-2024 19:32:01.978 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:32:02.002 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:32:02.003 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61496
+03-01-2024 19:32:02.004 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61496
+03-01-2024 19:32:02.004 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:32:02.018 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:32:02.021 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:32:02.025 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:32:02.027 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:32:02.409 [java] [CRITICAL] process /usr/bin/java with pid 52697 quit unexpectedly. exit status 1
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:02.409 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:02.410 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:02.410 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:02.411 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:32:02.419 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:32:02.419 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:32:02.419 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:32:02.420 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:32:02.420 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:32:02.420 [Gauge] [INFO] 
+Total time taken: 432ms
+03-01-2024 19:32:24.092 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:32:24.093 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:32:24.094 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:32:24.094 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:32:24.094 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:32:24.095 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:32:24.095 [Gauge] [ERROR] Specs directory e2e.spec does not exist.
+03-01-2024 19:32:37.484 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:32:37.486 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:32:37.486 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:32:37.487 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:32:37.487 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:32:37.489 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:32:37.489 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:32:37.489 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:32:37.489 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:32:37.502 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:32:37.502 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:32:37.502 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:32:37.502 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:32:37.502 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:32:37.502 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:32:37.502 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:32:37.502 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:32:37.502 [java] [DEBUG] ***** END *****
+03-01-2024 19:32:37.643 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:32:37.643 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:32:37.891 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:32:37.935 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:32:37.977 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:32:39.221 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:32:39.221 [java] [DEBUG] found java executable in java
+03-01-2024 19:32:39.221 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:32:39.221 [java] [DEBUG] stdout/stderr is logged to logs/52753-java.out
+03-01-2024 19:32:39.352 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:32:39.519 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:32:39.533 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:32:39.533 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:32:39.533 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:32:39.701 [java] [DEBUG] gauge-java took 348milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:32:39.701 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 348
+03-01-2024 19:32:39.701 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:32:39.791 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61573
+03-01-2024 19:32:39.858 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61573
+03-01-2024 19:32:39.858 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:32:40.302 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:32:40.304 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:32:40.305 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:32:40.306 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:32:40.512 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:32:40.512 [Gauge] [DEBUG] Run started
+03-01-2024 19:32:40.513 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:32:40.535 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:32:40.535 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61578
+03-01-2024 19:32:40.537 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61578
+03-01-2024 19:32:40.537 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:32:40.550 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:32:40.553 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:32:40.556 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:32:40.558 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:40.956 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:40.956 [java] [CRITICAL] process /usr/bin/java with pid 52772 quit unexpectedly. exit status 1
+03-01-2024 19:32:40.957 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:40.957 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:40.957 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:32:40.958 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:32:40.959 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:32:40.959 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:32:40.969 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:32:40.969 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:32:40.970 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:32:40.970 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:32:40.970 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:32:40.970 [Gauge] [INFO] 
+Total time taken: 445ms
+03-01-2024 19:39:36.707 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:39:36.708 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:39:36.708 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:39:36.709 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:39:36.709 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:39:36.711 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:39:36.711 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:39:36.711 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:39:36.711 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:39:36.724 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:39:36.724 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:39:36.724 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:39:36.724 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:39:36.724 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:39:36.724 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:39:36.724 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:39:36.724 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:39:36.724 [java] [DEBUG] ***** END *****
+03-01-2024 19:39:37.182 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:39:37.182 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:39:37.454 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:39:37.493 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:39:37.532 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:39:38.419 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:39:38.419 [java] [DEBUG] found java executable in java
+03-01-2024 19:39:38.420 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:39:38.420 [java] [DEBUG] stdout/stderr is logged to logs/53043-java.out
+03-01-2024 19:39:38.495 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:39:38.659 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:39:38.672 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:39:38.672 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:39:38.672 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:39:38.933 [java] [DEBUG] gauge-java took 434milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:39:38.933 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 434
+03-01-2024 19:39:38.933 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:39:39.026 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62491
+03-01-2024 19:39:39.084 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62491
+03-01-2024 19:39:39.084 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:39:39.384 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:39:39.385 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:39:39.387 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:39:39.387 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:39:39.597 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:39:39.597 [Gauge] [DEBUG] Run started
+03-01-2024 19:39:39.598 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:39:39.621 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62497
+03-01-2024 19:39:39.622 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62497
+03-01-2024 19:39:39.622 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:39:39.635 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:39:39.638 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:39:39.641 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:39:39.643 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:39:40.029 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:39:40.029 [java] [CRITICAL] process /usr/bin/java with pid 53060 quit unexpectedly. exit status 1
+03-01-2024 19:39:40.030 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:39:40.030 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:39:40.030 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:39:40.030 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:39:40.030 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:39:40.031 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:39:40.043 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:39:40.043 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:39:40.043 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:39:40.043 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:39:40.043 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:39:40.043 [Gauge] [INFO] 
+Total time taken: 433ms
+03-01-2024 19:41:26.968 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:41:26.969 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:41:26.970 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:41:26.970 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:41:26.970 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:41:26.972 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:41:26.972 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:41:26.972 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:41:26.972 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:41:26.985 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:41:26.985 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:41:26.985 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:41:26.985 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:41:26.985 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:41:26.985 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:41:26.985 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:41:26.985 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:41:26.985 [java] [DEBUG] ***** END *****
+03-01-2024 19:41:27.140 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:41:27.140 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:41:27.385 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:41:27.424 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:41:27.462 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:41:28.692 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:41:28.692 [java] [DEBUG] found java executable in java
+03-01-2024 19:41:28.693 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:41:28.693 [java] [DEBUG] stdout/stderr is logged to logs/53120-java.out
+03-01-2024 19:41:28.770 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:41:28.935 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:41:28.949 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:41:28.949 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:41:28.949 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:41:29.176 [java] [DEBUG] gauge-java took 405milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:41:29.177 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 405
+03-01-2024 19:41:29.177 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:41:29.241 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62734
+03-01-2024 19:41:29.304 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62734
+03-01-2024 19:41:29.304 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:41:29.631 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:41:29.633 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:41:29.635 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:41:29.635 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:41:29.832 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:41:29.832 [Gauge] [DEBUG] Run started
+03-01-2024 19:41:29.833 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:41:29.855 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:41:29.855 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62737
+03-01-2024 19:41:29.856 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62737
+03-01-2024 19:41:29.856 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:41:29.867 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:41:29.870 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:41:29.873 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:41:29.875 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:41:30.249 [java] [CRITICAL] process /usr/bin/java with pid 53139 quit unexpectedly. exit status 1
+03-01-2024 19:41:30.249 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:41:30.250 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:41:30.251 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:41:30.251 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:41:30.251 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:41:30.251 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:41:30.252 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:41:30.252 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:41:30.261 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:41:30.261 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:41:30.261 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:41:30.262 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:41:30.262 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:41:30.262 [Gauge] [INFO] 
+Total time taken: 418ms
+03-01-2024 19:49:57.758 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:49:57.759 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:49:57.760 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:49:57.760 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:49:57.760 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:49:57.762 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:49:57.762 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:49:57.763 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:49:57.763 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:49:57.775 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:49:57.775 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:49:57.775 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:49:57.775 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:49:57.775 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:49:57.775 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:49:57.775 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_custom_build_path: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_custom_compile_dir: 
+03-01-2024 19:49:57.775 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:49:57.775 [java] [DEBUG] ***** END *****
+03-01-2024 19:49:58.208 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:49:58.208 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:49:58.469 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:49:58.513 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:49:58.558 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:49:59.514 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/l5/1xk9b3914jqdtz9kzsnkz8ph0000gn/T/gauge_temp1809946311/f8a993c503c0bb5b2b9794deaaf31628]
+03-01-2024 19:49:59.514 [java] [DEBUG] stdout/stderr is logged to logs/53430-javac.out
+03-01-2024 19:49:59.875 [java] [ERROR] src/test/java/base/BasePage.java:3: error: package io.appium.java_client.android does not exist
+03-01-2024 19:49:59.875 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 19:49:59.875 [java] [ERROR] ^
+03-01-2024 19:49:59.880 [java] [ERROR] src/test/java/base/BasePage.java:4: error: package org.junit does not exist
+03-01-2024 19:49:59.880 [java] [ERROR] import org.junit.Assert;
+03-01-2024 19:49:59.880 [java] [ERROR] ^
+03-01-2024 19:49:59.887 [java] [ERROR] src/test/java/base/BasePage.java:6: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 19:49:59.887 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+03-01-2024 19:49:59.887 [java] [ERROR] ^
+03-01-2024 19:49:59.890 [java] [ERROR] src/test/java/base/BasePage.java:7: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 19:49:59.890 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+03-01-2024 19:49:59.890 [java] [ERROR] ^
+03-01-2024 19:49:59.896 [java] [ERROR] src/test/java/base/BasePage.java:12: error: cannot find symbol
+03-01-2024 19:49:59.896 [java] [ERROR] public AndroidDriver driver;
+03-01-2024 19:49:59.896 [java] [ERROR] ^
+03-01-2024 19:49:59.896 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.896 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.896 [java] [ERROR] src/test/java/base/BasePage.java:13: error: cannot find symbol
+03-01-2024 19:49:59.896 [java] [ERROR] public WebDriverWait wait;
+03-01-2024 19:49:59.896 [java] [ERROR] ^
+03-01-2024 19:49:59.896 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 19:49:59.896 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.896 [java] [ERROR] src/test/java/base/BasePage.java:14: error: cannot find symbol
+03-01-2024 19:49:59.896 [java] [ERROR] public BasePage(AndroidDriver driver) {
+03-01-2024 19:49:59.896 [java] [ERROR] ^
+03-01-2024 19:49:59.896 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.896 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.897 [java] [ERROR] src/test/java/base/BasePage.java:19: error: cannot find symbol
+03-01-2024 19:49:59.897 [java] [ERROR] public WebElement findElement(By by) {
+03-01-2024 19:49:59.897 [java] [ERROR] ^
+03-01-2024 19:49:59.897 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.897 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.897 [java] [ERROR] src/test/java/base/BasePage.java:19: error: cannot find symbol
+03-01-2024 19:49:59.897 [java] [ERROR] public WebElement findElement(By by) {
+03-01-2024 19:49:59.897 [java] [ERROR] ^
+03-01-2024 19:49:59.897 [java] [ERROR] symbol:   class WebElement
+03-01-2024 19:49:59.897 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.897 [java] [ERROR] src/test/java/base/BasePage.java:24: error: cannot find symbol
+03-01-2024 19:49:59.897 [java] [ERROR] public void clickElement(By by) {
+03-01-2024 19:49:59.897 [java] [ERROR] ^
+03-01-2024 19:49:59.897 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.897 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.897 [java] [ERROR] src/test/java/base/BasePage.java:31: error: cannot find symbol
+03-01-2024 19:49:59.897 [java] [ERROR] public String getText(By by) {
+03-01-2024 19:49:59.897 [java] [ERROR] ^
+03-01-2024 19:49:59.897 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.897 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.904 [java] [ERROR] src/test/java/base/BasePage.java:35: error: cannot find symbol
+03-01-2024 19:49:59.905 [java] [ERROR] public boolean isVisible(By by) {
+03-01-2024 19:49:59.905 [java] [ERROR] ^
+03-01-2024 19:49:59.905 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.905 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.905 [java] [ERROR] src/test/java/base/BasePage.java:39: error: cannot find symbol
+03-01-2024 19:49:59.905 [java] [ERROR] public void sendKeys(By by, CharSequence text) {
+03-01-2024 19:49:59.905 [java] [ERROR] ^
+03-01-2024 19:49:59.905 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.905 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.905 [java] [ERROR] src/test/java/base/BasePage.java:46: error: cannot find symbol
+03-01-2024 19:49:59.905 [java] [ERROR] protected void assertTextEquals(By by, String expectedText) {
+03-01-2024 19:49:59.905 [java] [ERROR] ^
+03-01-2024 19:49:59.905 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.905 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.907 [java] [ERROR] src/test/java/base/BasePage.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 19:49:59.907 [java] [ERROR] import org.openqa.selenium.*;
+03-01-2024 19:49:59.907 [java] [ERROR] ^
+03-01-2024 19:49:59.911 [java] [ERROR] src/test/java/base/BaseTest.java:6: error: package io.appium.java_client does not exist
+03-01-2024 19:49:59.911 [java] [ERROR] import io.appium.java_client.MobileElement;
+03-01-2024 19:49:59.911 [java] [ERROR] ^
+03-01-2024 19:49:59.913 [java] [ERROR] src/test/java/base/BaseTest.java:7: error: package io.appium.java_client.android does not exist
+03-01-2024 19:49:59.913 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 19:49:59.913 [java] [ERROR] ^
+03-01-2024 19:49:59.917 [java] [ERROR] src/test/java/base/BaseTest.java:8: error: package io.appium.java_client.android.nativekey does not exist
+03-01-2024 19:49:59.917 [java] [ERROR] import io.appium.java_client.android.nativekey.AndroidKey;
+03-01-2024 19:49:59.917 [java] [ERROR] ^
+03-01-2024 19:49:59.922 [java] [ERROR] src/test/java/base/BaseTest.java:9: error: package org.openqa.selenium.remote does not exist
+03-01-2024 19:49:59.922 [java] [ERROR] import org.openqa.selenium.remote.DesiredCapabilities;
+03-01-2024 19:49:59.922 [java] [ERROR] ^
+03-01-2024 19:49:59.925 [java] [ERROR] src/test/java/base/BaseTest.java:10: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 19:49:59.925 [java] [ERROR] import org.openqa.selenium.support.ui.WebDriverWait;
+03-01-2024 19:49:59.925 [java] [ERROR] ^
+03-01-2024 19:49:59.929 [java] [ERROR] src/test/java/base/BaseTest.java:13: error: package io.appium.java_client.android.nativekey does not exist
+03-01-2024 19:49:59.929 [java] [ERROR] import io.appium.java_client.android.nativekey.KeyEvent;
+03-01-2024 19:49:59.929 [java] [ERROR] ^
+03-01-2024 19:49:59.932 [java] [ERROR] src/test/java/base/BaseTest.java:16: error: cannot find symbol
+03-01-2024 19:49:59.932 [java] [ERROR] protected static AndroidDriver driver;
+03-01-2024 19:49:59.932 [java] [ERROR] ^
+03-01-2024 19:49:59.932 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.932 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.932 [java] [ERROR] src/test/java/base/BaseTest.java:17: error: cannot find symbol
+03-01-2024 19:49:59.932 [java] [ERROR] protected static WebDriverWait wait;
+03-01-2024 19:49:59.932 [java] [ERROR] ^
+03-01-2024 19:49:59.932 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 19:49:59.932 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.935 [java] [ERROR] src/test/java/screen/LaunchScreen.java:4: error: package io.appium.java_client.android does not exist
+03-01-2024 19:49:59.935 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 19:49:59.935 [java] [ERROR] ^
+03-01-2024 19:49:59.936 [java] [ERROR] src/test/java/screen/LaunchScreen.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 19:49:59.936 [java] [ERROR] import org.openqa.selenium.By;
+03-01-2024 19:49:59.936 [java] [ERROR] ^
+03-01-2024 19:49:59.938 [java] [ERROR] src/test/java/screen/LaunchScreen.java:6: error: package org.openqa.selenium does not exist
+03-01-2024 19:49:59.938 [java] [ERROR] import org.openqa.selenium.WebElement;
+03-01-2024 19:49:59.938 [java] [ERROR] ^
+03-01-2024 19:49:59.940 [java] [ERROR] src/test/java/screen/LaunchScreen.java:7: error: package org.openqa.selenium.support.ui does not exist
+03-01-2024 19:49:59.940 [java] [ERROR] import org.openqa.selenium.support.ui.ExpectedConditions;
+03-01-2024 19:49:59.940 [java] [ERROR] ^
+03-01-2024 19:49:59.942 [java] [ERROR] src/test/java/screen/LaunchScreen.java:11: error: cannot find symbol
+03-01-2024 19:49:59.942 [java] [ERROR] public LaunchScreen(AndroidDriver driver) {
+03-01-2024 19:49:59.942 [java] [ERROR] ^
+03-01-2024 19:49:59.942 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.942 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.942 [java] [ERROR] src/test/java/screen/LaunchScreen.java:15: error: cannot find symbol
+03-01-2024 19:49:59.942 [java] [ERROR] public static final By welcomeText = By.xpath("//*[@text='Welcome to umob']");
+03-01-2024 19:49:59.942 [java] [ERROR] ^
+03-01-2024 19:49:59.942 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.942 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.942 [java] [ERROR] src/test/java/screen/LaunchScreen.java:16: error: cannot find symbol
+03-01-2024 19:49:59.942 [java] [ERROR] public static final By closeButton = By.id("com.umob.umob:id/intercom_close");
+03-01-2024 19:49:59.942 [java] [ERROR] ^
+03-01-2024 19:49:59.942 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.942 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.942 [java] [ERROR] src/test/java/screen/LaunchScreen.java:17: error: cannot find symbol
+03-01-2024 19:49:59.942 [java] [ERROR] public static final By getStartedButton = By.xpath("//android.widget.TextView[@text=\"Let's get started\"]\n");
+03-01-2024 19:49:59.942 [java] [ERROR] ^
+03-01-2024 19:49:59.942 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.942 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.943 [java] [ERROR] src/test/java/screen/LaunchScreen.java:18: error: cannot find symbol
+03-01-2024 19:49:59.943 [java] [ERROR] public static final By nextButton = By.xpath("//android.widget.TextView[contains(@content-desc, 'Next')]");
+03-01-2024 19:49:59.943 [java] [ERROR] ^
+03-01-2024 19:49:59.943 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.943 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.944 [java] [ERROR] src/test/java/screen/SignUpScreen.java:4: error: package io.appium.java_client.android does not exist
+03-01-2024 19:49:59.944 [java] [ERROR] import io.appium.java_client.android.AndroidDriver;
+03-01-2024 19:49:59.944 [java] [ERROR] ^
+03-01-2024 19:49:59.946 [java] [ERROR] src/test/java/screen/SignUpScreen.java:5: error: package org.openqa.selenium does not exist
+03-01-2024 19:49:59.946 [java] [ERROR] import org.openqa.selenium.By;
+03-01-2024 19:49:59.946 [java] [ERROR] ^
+03-01-2024 19:49:59.947 [java] [ERROR] src/test/java/screen/SignUpScreen.java:8: error: cannot find symbol
+03-01-2024 19:49:59.947 [java] [ERROR] public SignUpScreen(AndroidDriver driver) {
+03-01-2024 19:49:59.947 [java] [ERROR] ^
+03-01-2024 19:49:59.947 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.947 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.947 [java] [ERROR] src/test/java/screen/SignUpScreen.java:12: error: cannot find symbol
+03-01-2024 19:49:59.947 [java] [ERROR] public static final By signupTitle = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
+03-01-2024 19:49:59.947 [java] [ERROR] ^
+03-01-2024 19:49:59.947 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.947 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.947 [java] [ERROR] src/test/java/screen/SignUpScreen.java:13: error: cannot find symbol
+03-01-2024 19:49:59.947 [java] [ERROR] public static final By signUpButton = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup");
+03-01-2024 19:49:59.947 [java] [ERROR] ^
+03-01-2024 19:49:59.947 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.947 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.948 [java] [ERROR] src/test/java/screen/SignUpScreen.java:15: error: cannot find symbol
+03-01-2024 19:49:59.948 [java] [ERROR] public static final By signUpButtonGetText = By.xpath("//android.widget.TextView[@content-desc=\"undefined-text\"]");
+03-01-2024 19:49:59.948 [java] [ERROR] ^
+03-01-2024 19:49:59.948 [java] [ERROR] symbol:   class By
+03-01-2024 19:49:59.948 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.961 [java] [ERROR] src/test/java/base/BasePage.java:16: error: cannot find symbol
+03-01-2024 19:49:59.961 [java] [ERROR] wait = new WebDriverWait(driver, 30, 500);
+03-01-2024 19:49:59.961 [java] [ERROR] ^
+03-01-2024 19:49:59.961 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 19:49:59.961 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.963 [java] [ERROR] src/test/java/base/BasePage.java:20: error: cannot find symbol
+03-01-2024 19:49:59.963 [java] [ERROR] wait.until(ExpectedConditions.presenceOfElementLocated(by));
+03-01-2024 19:49:59.963 [java] [ERROR] ^
+03-01-2024 19:49:59.963 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.963 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.963 [java] [ERROR] src/test/java/base/BasePage.java:26: error: cannot find symbol
+03-01-2024 19:49:59.963 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(by)).click();
+03-01-2024 19:49:59.963 [java] [ERROR] ^
+03-01-2024 19:49:59.963 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.963 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.964 [java] [ERROR] src/test/java/base/BasePage.java:27: error: cannot find symbol
+03-01-2024 19:49:59.964 [java] [ERROR] }catch (NoSuchElementException e) {
+03-01-2024 19:49:59.964 [java] [ERROR] ^
+03-01-2024 19:49:59.964 [java] [ERROR] symbol:   class NoSuchElementException
+03-01-2024 19:49:59.964 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.964 [java] [ERROR] src/test/java/base/BasePage.java:32: error: cannot find symbol
+03-01-2024 19:49:59.964 [java] [ERROR] return wait.until(ExpectedConditions.presenceOfElementLocated(by)).getText();
+03-01-2024 19:49:59.964 [java] [ERROR] ^
+03-01-2024 19:49:59.964 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.964 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.964 [java] [ERROR] src/test/java/base/BasePage.java:36: error: cannot find symbol
+03-01-2024 19:49:59.964 [java] [ERROR] return wait.until(ExpectedConditions.presenceOfElementLocated(by)).isDisplayed();
+03-01-2024 19:49:59.964 [java] [ERROR] ^
+03-01-2024 19:49:59.964 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.965 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.965 [java] [ERROR] src/test/java/base/BasePage.java:41: error: cannot find symbol
+03-01-2024 19:49:59.965 [java] [ERROR] WebElement element = findElement(by);
+03-01-2024 19:49:59.965 [java] [ERROR] ^
+03-01-2024 19:49:59.965 [java] [ERROR] symbol:   class WebElement
+03-01-2024 19:49:59.965 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.966 [java] [ERROR] src/test/java/base/BasePage.java:42: error: cannot find symbol
+03-01-2024 19:49:59.966 [java] [ERROR] wait.until(ExpectedConditions.elementToBeClickable(element)).sendKeys(text);
+03-01-2024 19:49:59.966 [java] [ERROR] ^
+03-01-2024 19:49:59.966 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.966 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.966 [java] [ERROR] src/test/java/base/BasePage.java:43: error: cannot find symbol
+03-01-2024 19:49:59.966 [java] [ERROR] }catch (NoSuchElementException e) {
+03-01-2024 19:49:59.966 [java] [ERROR] ^
+03-01-2024 19:49:59.966 [java] [ERROR] symbol:   class NoSuchElementException
+03-01-2024 19:49:59.966 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.966 [java] [ERROR] src/test/java/base/BasePage.java:48: error: cannot find symbol
+03-01-2024 19:49:59.966 [java] [ERROR] Assert.assertEquals(actualText, expectedText);
+03-01-2024 19:49:59.966 [java] [ERROR] ^
+03-01-2024 19:49:59.966 [java] [ERROR] symbol:   variable Assert
+03-01-2024 19:49:59.966 [java] [ERROR] location: class BasePage
+03-01-2024 19:49:59.968 [java] [ERROR] src/test/java/base/BaseTest.java:27: error: cannot find symbol
+03-01-2024 19:49:59.968 [java] [ERROR] DesiredCapabilities caps = new DesiredCapabilities();
+03-01-2024 19:49:59.968 [java] [ERROR] ^
+03-01-2024 19:49:59.968 [java] [ERROR] symbol:   class DesiredCapabilities
+03-01-2024 19:49:59.968 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.968 [java] [ERROR] src/test/java/base/BaseTest.java:27: error: cannot find symbol
+03-01-2024 19:49:59.968 [java] [ERROR] DesiredCapabilities caps = new DesiredCapabilities();
+03-01-2024 19:49:59.968 [java] [ERROR] ^
+03-01-2024 19:49:59.968 [java] [ERROR] symbol:   class DesiredCapabilities
+03-01-2024 19:49:59.968 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.968 [java] [ERROR] src/test/java/base/BaseTest.java:37: error: cannot find symbol
+03-01-2024 19:49:59.968 [java] [ERROR] driver = new AndroidDriver<MobileElement>(new URL(url), caps);
+03-01-2024 19:49:59.968 [java] [ERROR] ^
+03-01-2024 19:49:59.968 [java] [ERROR] symbol:   class AndroidDriver
+03-01-2024 19:49:59.968 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.968 [java] [ERROR] src/test/java/base/BaseTest.java:37: error: cannot find symbol
+03-01-2024 19:49:59.968 [java] [ERROR] driver = new AndroidDriver<MobileElement>(new URL(url), caps);
+03-01-2024 19:49:59.968 [java] [ERROR] ^
+03-01-2024 19:49:59.968 [java] [ERROR] symbol:   class MobileElement
+03-01-2024 19:49:59.968 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.970 [java] [ERROR] src/test/java/base/BaseTest.java:38: error: cannot find symbol
+03-01-2024 19:49:59.970 [java] [ERROR] wait = new WebDriverWait(driver, 10);
+03-01-2024 19:49:59.970 [java] [ERROR] ^
+03-01-2024 19:49:59.970 [java] [ERROR] symbol:   class WebDriverWait
+03-01-2024 19:49:59.970 [java] [ERROR] location: class BaseTest
+03-01-2024 19:49:59.970 [java] [ERROR] src/test/java/screen/LaunchScreen.java:15: error: cannot find symbol
+03-01-2024 19:49:59.970 [java] [ERROR] public static final By welcomeText = By.xpath("//*[@text='Welcome to umob']");
+03-01-2024 19:49:59.970 [java] [ERROR] ^
+03-01-2024 19:49:59.970 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.970 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.971 [java] [ERROR] src/test/java/screen/LaunchScreen.java:16: error: cannot find symbol
+03-01-2024 19:49:59.971 [java] [ERROR] public static final By closeButton = By.id("com.umob.umob:id/intercom_close");
+03-01-2024 19:49:59.971 [java] [ERROR] ^
+03-01-2024 19:49:59.971 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.971 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.971 [java] [ERROR] src/test/java/screen/LaunchScreen.java:17: error: cannot find symbol
+03-01-2024 19:49:59.971 [java] [ERROR] public static final By getStartedButton = By.xpath("//android.widget.TextView[@text=\"Let's get started\"]\n");
+03-01-2024 19:49:59.971 [java] [ERROR] ^
+03-01-2024 19:49:59.971 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.971 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.971 [java] [ERROR] src/test/java/screen/LaunchScreen.java:18: error: cannot find symbol
+03-01-2024 19:49:59.971 [java] [ERROR] public static final By nextButton = By.xpath("//android.widget.TextView[contains(@content-desc, 'Next')]");
+03-01-2024 19:49:59.971 [java] [ERROR] ^
+03-01-2024 19:49:59.971 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.971 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.972 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 19:49:59.972 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 19:49:59.972 [java] [ERROR] ^
+03-01-2024 19:49:59.972 [java] [ERROR] symbol:   class WebElement
+03-01-2024 19:49:59.972 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.972 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 19:49:59.972 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 19:49:59.972 [java] [ERROR] ^
+03-01-2024 19:49:59.972 [java] [ERROR] symbol:   variable ExpectedConditions
+03-01-2024 19:49:59.972 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.973 [java] [ERROR] src/test/java/screen/LaunchScreen.java:33: error: cannot find symbol
+03-01-2024 19:49:59.973 [java] [ERROR] WebElement button = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xPath)));
+03-01-2024 19:49:59.973 [java] [ERROR] ^
+03-01-2024 19:49:59.973 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.973 [java] [ERROR] location: class LaunchScreen
+03-01-2024 19:49:59.975 [java] [ERROR] src/test/java/screen/SignUpScreen.java:12: error: cannot find symbol
+03-01-2024 19:49:59.975 [java] [ERROR] public static final By signupTitle = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
+03-01-2024 19:49:59.975 [java] [ERROR] ^
+03-01-2024 19:49:59.975 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.975 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.975 [java] [ERROR] src/test/java/screen/SignUpScreen.java:13: error: cannot find symbol
+03-01-2024 19:49:59.975 [java] [ERROR] public static final By signUpButton = By.xpath("//android.view.ViewGroup[@content-desc=\"container\"]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup");
+03-01-2024 19:49:59.975 [java] [ERROR] ^
+03-01-2024 19:49:59.975 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.975 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.976 [java] [ERROR] src/test/java/screen/SignUpScreen.java:15: error: cannot find symbol
+03-01-2024 19:49:59.976 [java] [ERROR] public static final By signUpButtonGetText = By.xpath("//android.widget.TextView[@content-desc=\"undefined-text\"]");
+03-01-2024 19:49:59.976 [java] [ERROR] ^
+03-01-2024 19:49:59.976 [java] [ERROR] symbol:   variable By
+03-01-2024 19:49:59.976 [java] [ERROR] location: class SignUpScreen
+03-01-2024 19:49:59.977 [java] [ERROR] Note: src/test/java/base/BaseTest.java uses or overrides a deprecated API.
+03-01-2024 19:49:59.977 [java] [ERROR] Note: Recompile with -Xlint:deprecation for details.
+03-01-2024 19:49:59.977 [java] [ERROR] 63 errors
+03-01-2024 19:49:59.997 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:49:59.997 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:50:33.374 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:50:33.375 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:50:33.375 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:50:33.376 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:50:33.376 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:50:33.377 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:50:33.377 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:50:33.377 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:50:33.377 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:50:33.390 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:50:33.390 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:50:33.390 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:50:33.390 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:50:33.390 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:50:33.390 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:50:33.390 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:50:33.390 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:50:33.390 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:50:33.390 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:50:33.391 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:50:33.391 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:50:33.391 [java] [DEBUG] ***** END *****
+03-01-2024 19:50:33.544 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:50:33.545 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:33.674 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:33.709 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:33.739 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:35.084 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:50:35.084 [java] [DEBUG] found java executable in java
+03-01-2024 19:50:35.084 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:50:35.084 [java] [DEBUG] stdout/stderr is logged to logs/53469-java.out
+03-01-2024 19:50:35.155 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:50:35.322 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:50:35.336 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:50:35.336 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:50:35.336 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:50:35.496 [java] [DEBUG] gauge-java took 339milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:50:35.496 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 339
+03-01-2024 19:50:35.496 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:50:35.580 [java] [DEBUG] started gRPC server on port 63788
+03-01-2024 19:50:35.580 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63788
+03-01-2024 19:50:35.663 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63788
+03-01-2024 19:50:35.663 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:50:36.134 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:50:36.136 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:50:36.137 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:50:36.137 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:50:36.384 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:50:36.384 [Gauge] [DEBUG] Run started
+03-01-2024 19:50:36.385 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:50:36.409 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:50:36.409 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63791
+03-01-2024 19:50:36.410 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63791
+03-01-2024 19:50:36.410 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:50:36.421 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:50:36.425 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:50:36.429 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:50:36.431 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:50:36.823 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:50:36.824 [java] [CRITICAL] process /usr/bin/java with pid 53488 quit unexpectedly. exit status 1
+03-01-2024 19:50:36.824 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:50:36.824 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:50:36.824 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:50:36.824 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:50:36.832 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:50:36.832 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:50:36.832 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:50:36.833 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:50:36.833 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:50:36.833 [Gauge] [INFO] 
+Total time taken: 439ms
+03-01-2024 19:50:50.562 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:50:50.562 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:50:50.563 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:50:50.563 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:50:50.563 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:50:50.564 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:50:50.564 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:50:50.564 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:50:50.564 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:50:50.569 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:50:50.569 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:50:50.569 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:50:50.569 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:50:50.569 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:50:50.569 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:50:50.569 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/specs
+03-01-2024 19:50:50.569 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:50:50.569 [java] [DEBUG] ***** END *****
+03-01-2024 19:50:50.755 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:50:50.755 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:50.984 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:51.026 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:51.071 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:50:52.019 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:50:52.019 [java] [DEBUG] found java executable in java
+03-01-2024 19:50:52.019 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:50:52.019 [java] [DEBUG] stdout/stderr is logged to logs/53506-java.out
+03-01-2024 19:50:52.093 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:50:52.101 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:50:52.117 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:50:52.117 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:50:52.117 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:50:52.390 [java] [DEBUG] gauge-java took 292milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:50:52.390 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 292
+03-01-2024 19:50:52.390 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:50:52.462 [java] [DEBUG] started gRPC server on port 63829
+03-01-2024 19:50:52.462 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63829
+03-01-2024 19:50:52.519 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63829
+03-01-2024 19:50:52.519 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:50:52.794 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:50:52.796 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:50:52.798 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:50:53.015 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:6 Step implementation not found => 'Check the available button and click'
+03-01-2024 19:50:53.015 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:7 Step implementation not found => 'Close the launch screen'
+03-01-2024 19:50:53.015 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:8 Step implementation not found => 'Check title of signup screen'
+03-01-2024 19:50:53.015 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:9 Step implementation not found => 'Check signup button text'
+03-01-2024 19:50:53.015 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+03-01-2024 19:50:53.015 [Gauge] [INFO] 
+	@Step("Check the available button and click")
+	public void checkTheAvailableButtonAndClick(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:50:53.015 [Gauge] [INFO] 
+	@Step("Close the launch screen")
+	public void closeTheLaunchScreen(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:50:53.015 [Gauge] [INFO] 
+	@Step("Check title of signup screen")
+	public void checkTitleOfSignupScreen(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:50:53.015 [Gauge] [INFO] 
+	@Step("Check signup button text")
+	public void checkSignupButtonText(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:50:53.015 [Gauge] [DEBUG] Run started
+03-01-2024 19:50:53.016 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:50:53.040 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:50:53.040 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63834
+03-01-2024 19:50:53.042 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63834
+03-01-2024 19:50:53.042 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:50:53.058 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:50:53.066 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:50:53.067 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:50:53.067 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:50:53.070 [java] [DEBUG] Killing Java runner...
+03-01-2024 19:50:53.071 [java] [DEBUG] Stopping execution pool...
+03-01-2024 19:50:53.071 [java] [DEBUG] Shutting down grpc server...
+03-01-2024 19:50:53.072 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+03-01-2024 19:50:53.072 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+03-01-2024 19:50:53.072 [Gauge] [INFO] 
+Total time taken: 41ms
+03-01-2024 19:52:04.046 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:52:04.047 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:52:04.047 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:52:04.047 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:52:04.048 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:52:04.049 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:52:04.049 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:52:04.049 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:52:04.049 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:52:04.061 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:52:04.061 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:52:04.061 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:52:04.061 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:52:04.061 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:52:04.061 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:52:04.061 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 19:52:04.061 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:52:04.061 [java] [DEBUG] ***** END *****
+03-01-2024 19:52:04.510 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:52:04.511 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:04.759 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:04.794 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:04.840 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:05.777 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:52:05.777 [java] [DEBUG] found java executable in java
+03-01-2024 19:52:05.777 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:52:05.777 [java] [DEBUG] stdout/stderr is logged to logs/53556-java.out
+03-01-2024 19:52:05.853 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:52:06.028 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:52:06.041 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:52:06.041 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:52:06.041 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:52:06.305 [java] [DEBUG] gauge-java took 448milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:52:06.305 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 448
+03-01-2024 19:52:06.305 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:52:06.402 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63961
+03-01-2024 19:52:06.473 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63961
+03-01-2024 19:52:06.473 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:52:06.827 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:52:06.828 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:52:06.830 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 19:52:06.831 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 19:52:07.073 [Gauge] [DEBUG] Validation completed.
+03-01-2024 19:52:07.073 [Gauge] [DEBUG] Run started
+03-01-2024 19:52:07.073 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:52:07.095 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:52:07.095 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63965
+03-01-2024 19:52:07.097 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63965
+03-01-2024 19:52:07.097 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:52:07.110 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 19:52:07.113 [Gauge] [INFO] ## Launch Test
+03-01-2024 19:52:07.117 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 19:52:07.119 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 19:52:07.498 [java] [CRITICAL] process /usr/bin/java with pid 53575 quit unexpectedly. exit status 1
+03-01-2024 19:52:07.497 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:52:07.498 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 19:52:07.499 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:52:07.499 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:52:07.500 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 19:52:07.500 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 19:52:07.500 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:52:07.510 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:52:07.511 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:52:07.511 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:52:07.511 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:52:07.511 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 19:52:07.511 [Gauge] [INFO] 
+Total time taken: 426ms
+03-01-2024 19:52:35.278 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 19:52:35.278 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 19:52:35.279 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 19:52:35.279 [Gauge] [DEBUG] Parsing started.
+03-01-2024 19:52:35.279 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 19:52:35.281 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 19:52:35.281 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 19:52:35.282 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 19:52:35.282 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 19:52:35.293 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 19:52:35.293 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 19:52:35.293 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_project_root: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 19:52:35.293 [java] [DEBUG] overwrite_reports: true
+03-01-2024 19:52:35.293 [java] [DEBUG] logs_directory: logs
+03-01-2024 19:52:35.293 [java] [DEBUG] enable_multithreading: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 19:52:35.293 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_java_home: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test/test
+03-01-2024 19:52:35.293 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 19:52:35.293 [java] [DEBUG] ***** END *****
+03-01-2024 19:52:35.434 [Gauge] [DEBUG] Checking updates...
+03-01-2024 19:52:35.435 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:35.588 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:35.625 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:35.665 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 19:52:37.016 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 19:52:37.016 [java] [DEBUG] found java executable in java
+03-01-2024 19:52:37.017 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 19:52:37.017 [java] [DEBUG] stdout/stderr is logged to logs/53602-java.out
+03-01-2024 19:52:37.101 [java] [DEBUG] multithreading is set to false
+03-01-2024 19:52:37.105 [java] [ERROR] 
+/Users/numanhan/Desktop/uMobMobileAppAutomation/src/test/test
+java.nio.file.NoSuchFileException: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test/test
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)
+	at java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)
+	at java.base/java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:71)
+	at java.base/java.nio.file.Files.walk(Files.java:3898)
+	at java.base/java.nio.file.Files.walk(Files.java:3953)
+	at com.thoughtworks.gauge.FileHelper.lambda$getAllImplementationFiles$1(FileHelper.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.thoughtworks.gauge.FileHelper.getAllImplementationFiles(FileHelper.java:30)
+	at com.thoughtworks.gauge.scan.StaticScanner.addStepsToRegistry(StaticScanner.java:66)
+	at com.thoughtworks.gauge.command.StartCommand.execute(StartCommand.java:43)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:23)
+03-01-2024 19:52:37.108 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 19:52:37.127 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 19:52:37.127 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 19:52:37.127 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 19:52:37.437 [java] [DEBUG] gauge-java took 332milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 19:52:37.437 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 332
+03-01-2024 19:52:37.437 [java] [DEBUG] starting gRPC server...
+03-01-2024 19:52:37.530 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64031
+03-01-2024 19:52:37.583 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64031
+03-01-2024 19:52:37.583 [Gauge] [DEBUG] Validation started.
+03-01-2024 19:52:37.878 [java] [DEBUG] Scanning packages for steps
+03-01-2024 19:52:37.880 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 19:52:37.882 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 19:52:38.091 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:6 Step implementation not found => 'Check the available button and click'
+03-01-2024 19:52:38.091 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:7 Step implementation not found => 'Close the launch screen'
+03-01-2024 19:52:38.091 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:8 Step implementation not found => 'Check title of signup screen'
+03-01-2024 19:52:38.091 [Gauge] [ERROR] [ValidationError] /Users/numanhan/Desktop/AutomationUIUmobApp/specs/e2e.spec:9 Step implementation not found => 'Check signup button text'
+03-01-2024 19:52:38.091 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+03-01-2024 19:52:38.091 [Gauge] [INFO] 
+	@Step("Check the available button and click")
+	public void checkTheAvailableButtonAndClick(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:52:38.091 [Gauge] [INFO] 
+	@Step("Close the launch screen")
+	public void closeTheLaunchScreen(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:52:38.091 [Gauge] [INFO] 
+	@Step("Check title of signup screen")
+	public void checkTitleOfSignupScreen(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:52:38.092 [Gauge] [INFO] 
+	@Step("Check signup button text")
+	public void checkSignupButtonText(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+03-01-2024 19:52:38.092 [Gauge] [DEBUG] Run started
+03-01-2024 19:52:38.093 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 19:52:38.118 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 19:52:38.118 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64034
+03-01-2024 19:52:38.119 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64034
+03-01-2024 19:52:38.120 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 19:52:38.136 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 19:52:38.144 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 19:52:38.144 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 19:52:38.144 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 19:52:38.145 [java] [DEBUG] Killing Java runner...
+03-01-2024 19:52:38.145 [java] [DEBUG] Stopping execution pool...
+03-01-2024 19:52:38.146 [java] [DEBUG] Shutting down grpc server...
+03-01-2024 19:52:38.147 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+03-01-2024 19:52:38.147 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+03-01-2024 19:52:38.147 [Gauge] [INFO] 
+Total time taken: 43ms
+03-01-2024 20:05:09.674 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:05:09.675 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:05:09.676 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:05:09.676 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:05:09.676 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:05:09.677 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:05:09.677 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:05:09.678 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:05:09.678 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:05:09.691 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:05:09.691 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:05:09.691 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:05:09.691 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:05:09.691 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:05:09.691 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:05:09.691 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:05:09.691 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:05:09.691 [java] [DEBUG] ***** END *****
+03-01-2024 20:05:09.815 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:05:09.815 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:05:10.196 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:05:10.236 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:05:10.279 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:05:11.441 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:05:11.441 [java] [DEBUG] found java executable in java
+03-01-2024 20:05:11.441 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:05:11.442 [java] [DEBUG] stdout/stderr is logged to logs/53816-java.out
+03-01-2024 20:05:11.519 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:05:11.694 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:05:11.707 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:05:11.707 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:05:11.707 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:05:11.861 [java] [DEBUG] gauge-java took 338milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:05:11.861 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 338
+03-01-2024 20:05:11.861 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:05:11.962 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65483
+03-01-2024 20:05:12.023 [Gauge] [DEBUG] Successfully made the connection with runner with port: 65483
+03-01-2024 20:05:12.023 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:05:12.501 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:05:12.503 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:05:12.505 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:05:12.505 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:05:12.717 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:05:12.717 [Gauge] [DEBUG] Run started
+03-01-2024 20:05:12.718 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:05:12.742 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:05:12.742 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65486
+03-01-2024 20:05:12.744 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65486
+03-01-2024 20:05:12.744 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:05:12.757 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:05:12.760 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:05:12.763 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:05:12.765 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:05:13.154 [java] [CRITICAL] process /usr/bin/java with pid 53835 quit unexpectedly. exit status 1
+03-01-2024 20:05:13.154 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:05:13.154 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:05:13.155 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:05:13.155 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:05:13.156 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:05:13.166 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:05:13.166 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:05:13.166 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:05:13.167 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:05:13.167 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:05:13.167 [Gauge] [INFO] 
+Total time taken: 437ms
+03-01-2024 20:06:31.404 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:06:31.406 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:06:31.406 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:06:31.407 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:06:31.407 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:06:31.408 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:06:31.408 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:06:31.408 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:06:31.408 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:06:31.420 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:06:31.420 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:06:31.420 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:06:31.420 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:06:31.420 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:06:31.420 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:06:31.420 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:06:31.420 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:06:31.421 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:06:31.421 [java] [DEBUG] ***** END *****
+03-01-2024 20:06:31.938 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:06:31.938 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:06:32.193 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:06:32.222 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:06:32.266 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:06:33.145 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:06:33.145 [java] [DEBUG] found java executable in java
+03-01-2024 20:06:33.146 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:06:33.146 [java] [DEBUG] stdout/stderr is logged to logs/53884-java.out
+03-01-2024 20:06:33.223 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:06:33.390 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:06:33.403 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:06:33.403 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:06:33.403 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:06:33.586 [java] [DEBUG] gauge-java took 360milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:06:33.586 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 360
+03-01-2024 20:06:33.586 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:06:33.672 [java] [DEBUG] started gRPC server on port 49271
+03-01-2024 20:06:33.673 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49271
+03-01-2024 20:06:33.738 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49271
+03-01-2024 20:06:33.738 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:06:34.176 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:06:34.178 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:06:34.180 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:06:34.180 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:06:34.365 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:06:34.365 [Gauge] [DEBUG] Run started
+03-01-2024 20:06:34.366 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:06:34.388 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:06:34.389 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49276
+03-01-2024 20:06:34.390 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49276
+03-01-2024 20:06:34.390 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:06:34.404 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:06:34.408 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:06:34.411 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:06:34.414 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:06:34.795 [java] [CRITICAL] process /usr/bin/java with pid 53903 quit unexpectedly. exit status 1
+03-01-2024 20:06:34.795 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:06:34.795 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:06:34.795 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:06:34.795 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:06:34.795 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:06:34.795 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:06:34.796 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:06:34.797 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:06:34.807 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:06:34.807 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:06:34.807 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:06:34.807 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:06:34.807 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:06:34.807 [Gauge] [INFO] 
+Total time taken: 431ms
+03-01-2024 20:07:15.262 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:07:15.264 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:07:15.264 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:07:15.264 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:07:15.264 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:07:15.266 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:07:15.266 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:07:15.266 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:07:15.266 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:07:15.278 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:07:15.278 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:07:15.278 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:07:15.278 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:07:15.278 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:07:15.278 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:07:15.278 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:07:15.278 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:07:15.278 [java] [DEBUG] ***** END *****
+03-01-2024 20:07:15.408 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:07:15.409 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:07:15.658 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:07:15.696 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:07:15.741 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:07:16.992 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:07:16.992 [java] [DEBUG] found java executable in java
+03-01-2024 20:07:16.992 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:07:16.992 [java] [DEBUG] stdout/stderr is logged to logs/53926-java.out
+03-01-2024 20:07:17.069 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:07:17.235 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:07:17.247 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:07:17.247 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:07:17.247 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:07:17.481 [java] [DEBUG] gauge-java took 409milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:07:17.481 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 409
+03-01-2024 20:07:17.481 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:07:17.548 [java] [DEBUG] started gRPC server on port 49360
+03-01-2024 20:07:17.548 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49360
+03-01-2024 20:07:17.604 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49360
+03-01-2024 20:07:17.604 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:07:17.985 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:07:17.986 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:07:17.988 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:07:17.988 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:07:18.191 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:07:18.191 [Gauge] [DEBUG] Run started
+03-01-2024 20:07:18.192 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:07:18.218 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:07:18.218 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49363
+03-01-2024 20:07:18.220 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49363
+03-01-2024 20:07:18.220 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:07:18.233 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:07:18.237 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:07:18.240 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:07:18.242 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:07:18.636 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:07:18.636 [java] [CRITICAL] process /usr/bin/java with pid 53946 quit unexpectedly. exit status 1
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:07:18.636 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:07:18.637 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:07:18.637 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:07:18.637 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:07:18.647 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:07:18.647 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:07:18.647 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:07:18.647 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:07:18.647 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:07:18.647 [Gauge] [INFO] 
+Total time taken: 445ms
+03-01-2024 20:09:41.066 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:09:41.068 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:09:41.069 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:09:41.069 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:09:41.069 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:09:41.071 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:09:41.071 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:09:41.071 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:09:41.071 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:09:41.083 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:09:41.083 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:09:41.083 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:09:41.083 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:09:41.083 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:09:41.083 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:09:41.083 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:09:41.083 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:09:41.083 [java] [DEBUG] ***** END *****
+03-01-2024 20:09:41.535 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:09:41.536 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:09:41.806 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:09:41.850 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:09:41.896 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:09:42.835 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:09:42.835 [java] [DEBUG] found java executable in java
+03-01-2024 20:09:42.835 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:09:42.835 [java] [DEBUG] stdout/stderr is logged to logs/54009-java.out
+03-01-2024 20:09:42.914 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:09:43.081 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:09:43.094 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:09:43.095 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:09:43.095 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:09:43.320 [java] [DEBUG] gauge-java took 404milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:09:43.320 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 404
+03-01-2024 20:09:43.320 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:09:43.391 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49621
+03-01-2024 20:09:43.457 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49621
+03-01-2024 20:09:43.457 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:09:43.758 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:09:43.760 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:09:43.761 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:09:43.761 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:09:43.994 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:09:43.994 [Gauge] [DEBUG] Run started
+03-01-2024 20:09:43.995 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:09:44.018 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:09:44.018 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49626
+03-01-2024 20:09:44.020 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49626
+03-01-2024 20:09:44.020 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:09:44.033 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:09:44.036 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:09:44.040 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:09:44.042 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:09:44.426 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:09:44.426 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:09:44.427 [java] [CRITICAL] process /usr/bin/java with pid 54028 quit unexpectedly. exit status 1
+03-01-2024 20:09:44.427 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:09:44.427 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:09:44.427 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:09:44.427 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:09:44.427 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:09:44.428 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:09:44.438 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:09:44.438 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:09:44.438 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:09:44.439 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:09:44.439 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:09:44.439 [Gauge] [INFO] 
+Total time taken: 432ms
+03-01-2024 20:12:20.930 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:12:20.932 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:12:20.932 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:12:20.932 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:12:20.932 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:12:20.934 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:12:20.934 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:12:20.934 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:12:20.934 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:12:20.946 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:12:20.946 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:12:20.946 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:12:20.946 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:12:20.946 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:12:20.946 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:12:20.946 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:12:20.946 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:12:20.946 [java] [DEBUG] ***** END *****
+03-01-2024 20:12:21.085 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:12:21.085 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:12:21.369 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:12:21.409 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:12:21.449 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:12:22.703 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:12:22.703 [java] [DEBUG] found java executable in java
+03-01-2024 20:12:22.704 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:12:22.704 [java] [DEBUG] stdout/stderr is logged to logs/54077-java.out
+03-01-2024 20:12:22.779 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:12:22.945 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:12:22.958 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:12:22.958 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:12:22.958 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:12:23.188 [java] [DEBUG] gauge-java took 407milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:12:23.188 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 407
+03-01-2024 20:12:23.188 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:12:23.252 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49925
+03-01-2024 20:12:23.305 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49925
+03-01-2024 20:12:23.306 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:12:23.578 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:12:23.579 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:12:23.581 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:12:23.581 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:12:23.800 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:12:23.801 [Gauge] [DEBUG] Run started
+03-01-2024 20:12:23.802 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:12:23.824 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:12:23.824 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49930
+03-01-2024 20:12:23.826 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49930
+03-01-2024 20:12:23.826 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:12:23.840 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:12:23.843 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:12:23.846 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:12:23.848 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:12:24.233 [java] [CRITICAL] process /usr/bin/java with pid 54096 quit unexpectedly. exit status 1
+03-01-2024 20:12:24.233 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:12:24.233 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:12:24.234 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:12:24.234 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:12:24.234 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:12:24.235 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:12:24.246 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:12:24.246 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:12:24.246 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:12:24.246 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:12:24.246 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:12:24.246 [Gauge] [INFO] 
+Total time taken: 433ms
+03-01-2024 20:19:58.025 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:19:58.027 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:19:58.028 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:19:58.028 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:19:58.028 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:19:58.029 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:19:58.029 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:19:58.029 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:19:58.029 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:19:58.042 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:19:58.042 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:19:58.042 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:19:58.042 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:19:58.042 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:19:58.042 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:19:58.042 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:19:58.042 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:19:58.042 [java] [DEBUG] ***** END *****
+03-01-2024 20:19:58.183 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:19:58.184 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:19:58.447 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:19:58.484 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:19:58.523 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:19:59.742 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:19:59.742 [java] [DEBUG] found java executable in java
+03-01-2024 20:19:59.742 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:19:59.742 [java] [DEBUG] stdout/stderr is logged to logs/54367-java.out
+03-01-2024 20:19:59.821 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:19:59.984 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:19:59.996 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:19:59.997 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:19:59.997 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:20:00.191 [java] [DEBUG] gauge-java took 368milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:20:00.191 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 368
+03-01-2024 20:20:00.191 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:20:00.265 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50857
+03-01-2024 20:20:00.331 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50857
+03-01-2024 20:20:00.331 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:20:00.687 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:20:00.689 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:20:00.690 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:20:00.690 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:20:00.690 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:20:00.690 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:20:00.690 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:20:00.690 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:20:00.691 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:20:00.898 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:20:00.898 [Gauge] [DEBUG] Run started
+03-01-2024 20:20:00.899 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:20:00.920 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:20:00.920 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50870
+03-01-2024 20:20:00.922 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50870
+03-01-2024 20:20:00.922 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:20:00.940 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:20:00.943 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:20:00.947 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:20:00.951 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:20:01.329 [Gauge] [ERROR] 
+Failed Step: Check the available button and click
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:01.329 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:01.329 [java] [CRITICAL] process /usr/bin/java with pid 54387 quit unexpectedly. exit status 1
+03-01-2024 20:20:01.330 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:01.330 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:01.330 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:20:01.331 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:01.331 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:01.332 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:20:01.342 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:20:01.342 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:20:01.342 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:20:01.343 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:20:01.343 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:20:01.343 [Gauge] [INFO] 
+Total time taken: 432ms
+03-01-2024 20:20:07.883 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:20:07.884 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:20:07.884 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:20:07.884 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:20:07.884 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:20:07.885 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:20:07.885 [Gauge] [ERROR] Specs directory spec does not exist.
+03-01-2024 20:20:10.343 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:20:10.343 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:20:10.343 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:20:10.344 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:20:10.344 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:20:10.345 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:20:10.345 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:20:10.345 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:20:10.345 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:20:10.351 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:20:10.351 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:20:10.351 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:20:10.351 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:20:10.351 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:20:10.351 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:20:10.351 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:20:10.351 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:20:10.351 [java] [DEBUG] ***** END *****
+03-01-2024 20:20:10.474 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:20:10.474 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:20:10.693 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:20:10.748 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:20:10.791 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:20:11.894 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:20:11.894 [java] [DEBUG] found java executable in java
+03-01-2024 20:20:11.894 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:20:11.894 [java] [DEBUG] stdout/stderr is logged to logs/54410-java.out
+03-01-2024 20:20:11.965 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:20:12.134 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:20:12.147 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:20:12.147 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:20:12.147 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:20:12.354 [java] [DEBUG] gauge-java took 383milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:20:12.355 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 383
+03-01-2024 20:20:12.355 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:20:12.441 [java] [DEBUG] started gRPC server on port 50893
+03-01-2024 20:20:12.441 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50893
+03-01-2024 20:20:12.507 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50893
+03-01-2024 20:20:12.507 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:20:12.943 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:20:12.945 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:20:12.947 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:20:12.947 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:20:13.151 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:20:13.151 [Gauge] [DEBUG] Run started
+03-01-2024 20:20:13.152 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:20:13.178 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:20:13.178 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50898
+03-01-2024 20:20:13.180 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50898
+03-01-2024 20:20:13.180 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:20:13.195 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:20:13.198 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:20:13.201 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:20:13.204 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:20:13.591 [java] [CRITICAL] process /usr/bin/java with pid 54429 quit unexpectedly. exit status 1
+03-01-2024 20:20:13.592 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:20:13.593 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:20:13.594 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:20:13.603 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:20:13.603 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:20:13.603 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:20:13.604 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:20:13.604 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:20:13.604 [Gauge] [INFO] 
+Total time taken: 442ms
+03-01-2024 20:21:50.880 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:21:50.882 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:21:50.882 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:21:50.882 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:21:50.882 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:21:50.883 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:21:50.884 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:21:50.884 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:21:50.884 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:21:50.896 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:21:50.896 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:21:50.896 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:21:50.896 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:21:50.896 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:21:50.896 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:21:50.896 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:21:50.896 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:21:50.896 [java] [DEBUG] enable_multithreading: 
+03-01-2024 20:21:50.896 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:21:50.897 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:21:50.897 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:21:50.897 [java] [DEBUG] ***** END *****
+03-01-2024 20:21:51.039 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:21:51.039 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:21:51.296 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:21:51.339 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:21:51.380 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:21:52.832 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:21:52.832 [java] [DEBUG] found java executable in java
+03-01-2024 20:21:52.832 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:21:52.832 [java] [DEBUG] stdout/stderr is logged to logs/54531-java.out
+03-01-2024 20:21:52.910 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:21:53.076 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:21:53.089 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:21:53.089 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:21:53.089 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:21:53.322 [java] [DEBUG] gauge-java took 409milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:21:53.322 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 409
+03-01-2024 20:21:53.322 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:21:53.400 [java] [DEBUG] started gRPC server on port 51087
+03-01-2024 20:21:53.400 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51087
+03-01-2024 20:21:53.462 [Gauge] [DEBUG] Successfully made the connection with runner with port: 51087
+03-01-2024 20:21:53.463 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:21:53.840 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:21:53.841 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:21:53.843 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:21:53.843 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:21:54.044 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:21:54.044 [Gauge] [DEBUG] Run started
+03-01-2024 20:21:54.045 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:21:54.067 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:21:54.067 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51091
+03-01-2024 20:21:54.068 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51091
+03-01-2024 20:21:54.068 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:21:54.080 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:21:54.084 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:21:54.089 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:21:54.092 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:21:54.475 [java] [CRITICAL] process /usr/bin/java with pid 54550 quit unexpectedly. exit status 1
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:21:54.475 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:21:54.476 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:21:54.477 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:21:54.488 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:21:54.488 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:21:54.488 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:21:54.489 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:21:54.489 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:21:54.489 [Gauge] [INFO] 
+Total time taken: 431ms
+03-01-2024 20:23:06.991 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:23:06.992 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:23:06.993 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:23:06.993 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:23:06.993 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:23:06.996 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:23:06.996 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:23:06.996 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:23:06.996 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:23:07.007 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:23:07.007 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:23:07.007 [java] [DEBUG] JAVA_HOME: 
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:23:07.007 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:23:07.007 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:23:07.007 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:23:07.007 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:23:07.007 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:23:07.007 [java] [DEBUG] ***** END *****
+03-01-2024 20:23:07.140 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:23:07.140 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:23:07.272 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:23:07.307 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:23:07.358 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:23:08.999 [java] [DEBUG] classpath set to /Users/numanhan/.gauge/plugins/java/0.10.3/*:/Users/numanhan/.gauge/plugins/java/0.10.3/libs/*:/Users/numanhan/Desktop/AutomationUIUmobApp/libs/*:/Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:23:08.999 [java] [DEBUG] found java executable in java
+03-01-2024 20:23:08.999 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:23:08.999 [java] [DEBUG] stdout/stderr is logged to logs/54609-java.out
+03-01-2024 20:23:09.078 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:23:09.281 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:23:09.295 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:23:09.295 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:23:09.295 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:23:09.528 [java] [DEBUG] gauge-java took 447milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:23:09.528 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 447
+03-01-2024 20:23:09.528 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:23:09.595 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51254
+03-01-2024 20:23:09.657 [Gauge] [DEBUG] Successfully made the connection with runner with port: 51254
+03-01-2024 20:23:09.657 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:23:10.044 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:23:10.046 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:23:10.048 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:23:10.048 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:23:10.277 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:23:10.277 [Gauge] [DEBUG] Run started
+03-01-2024 20:23:10.278 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:23:10.301 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51260
+03-01-2024 20:23:10.303 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51260
+03-01-2024 20:23:10.303 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:23:10.316 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:23:10.319 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:23:10.322 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:23:10.324 [java] [CRITICAL] No step definition found. Try compiling the source before execution.
+03-01-2024 20:23:10.699 [java] [CRITICAL] process /usr/bin/java with pid 54628 quit unexpectedly. exit status 1
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Failed Step: Check the available button and click
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Error Message: error reading from server: EOF
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Specification: specs/e2e.spec:6
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:23:10.700 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:23:10.701 [Gauge] [ERROR] Error Message: Runner is not Alive
+03-01-2024 20:23:10.701 [Gauge] [ERROR] Stacktrace: 
+03-01-2024 20:23:10.701 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:23:10.714 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:23:10.714 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:23:10.714 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:23:10.715 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:23:10.717 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-01-2024 20:23:10.717 [Gauge] [INFO] 
+Total time taken: 423ms
+03-01-2024 20:31:27.542 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/numanhan/Desktop/AutomationUIUmobApp/.gauge/screenshots
+03-01-2024 20:31:27.543 [Gauge] [DEBUG] Plugin java is already installed.
+03-01-2024 20:31:27.543 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2024 20:31:27.543 [Gauge] [DEBUG] Parsing started.
+03-01-2024 20:31:27.543 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2024 20:31:27.544 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2024 20:31:27.544 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2024 20:31:27.544 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2024 20:31:27.544 [Gauge] [DEBUG] Parsing completed.
+03-01-2024 20:31:27.553 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-01-2024 20:31:27.553 [java] [DEBUG] PATH: /opt/homebrew/opt/libpq/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/numanhan/.maestro/bin:/usr/local/share/dotnet:/Users/numanhan/.gauge/plugins/screenshot/0.1.0
+03-01-2024 20:31:27.553 [java] [DEBUG] JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_project_root: 
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_parallel_streams_count: 
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_reports_dir: reports
+03-01-2024 20:31:27.553 [java] [DEBUG] overwrite_reports: true
+03-01-2024 20:31:27.553 [java] [DEBUG] logs_directory: logs
+03-01-2024 20:31:27.553 [java] [DEBUG] enable_multithreading: false
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_specs_dir: specs
+03-01-2024 20:31:27.553 [java] [DEBUG] csv_delimiter: ,
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_java_home: 
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_custom_build_path: /Users/numanhan/Desktop/uMobMobileAppAutomation/target/classes
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_additional_libs: libs/*
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_jvm_args: 
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_custom_compile_dir: /Users/numanhan/Desktop/uMobMobileAppAutomation/src/test
+03-01-2024 20:31:27.553 [java] [DEBUG] gauge_clear_state_level: scenario
+03-01-2024 20:31:27.553 [java] [DEBUG] ***** END *****
+03-01-2024 20:31:27.749 [Gauge] [DEBUG] Checking updates...
+03-01-2024 20:31:27.749 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:31:27.897 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:31:27.944 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:31:27.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle&o=darwin&a=arm64
+03-01-2024 20:31:29.179 [java] [DEBUG] classpath set to /Users/numanhan/Desktop/AutomationUIUmobApp/target/test-classes:/Users/numanhan/Desktop/AutomationUIUmobApp/target/classes:/Users/numanhan/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/Users/numanhan/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/numanhan/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/numanhan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/numanhan/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/Users/numanhan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/numanhan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/numanhan/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/Users/numanhan/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/numanhan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/numanhan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/numanhan/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/numanhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/numanhan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/Users/numanhan/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/numanhan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/Users/numanhan/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/Users/numanhan/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/Users/numanhan/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/numanhan/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/numanhan/.m2/repository/io/appium/java-client/7.5.1/java-client-7.5.1.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/numanhan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/numanhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/numanhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/numanhan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/numanhan/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/numanhan/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/numanhan/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/numanhan/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/numanhan/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/numanhan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/numanhan/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/numanhan/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/numanhan/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/numanhan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/numanhan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/numanhan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/numanhan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/numanhan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/numanhan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/numanhan/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/numanhan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+03-01-2024 20:31:29.190 [java] [DEBUG] found java executable in /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java
+03-01-2024 20:31:29.190 [java] [DEBUG] running - /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-01-2024 20:31:29.190 [java] [DEBUG] stdout/stderr is logged to logs/54887-java.out
+03-01-2024 20:31:29.242 [java] [DEBUG] multithreading is set to false
+03-01-2024 20:31:29.443 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-01-2024 20:31:29.465 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-01-2024 20:31:29.465 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-01-2024 20:31:29.465 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-01-2024 20:31:29.652 [java] [DEBUG] gauge-java took 403milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-01-2024 20:31:29.652 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 403
+03-01-2024 20:31:29.652 [java] [DEBUG] starting gRPC server...
+03-01-2024 20:31:29.790 [java] [DEBUG] started gRPC server on port 52258
+03-01-2024 20:31:29.791 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52258
+03-01-2024 20:31:29.850 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52258
+03-01-2024 20:31:29.850 [Gauge] [DEBUG] Validation started.
+03-01-2024 20:31:30.442 [java] [DEBUG] Scanning packages for steps
+03-01-2024 20:31:30.446 [java] [DEBUG] Comparing 'base.BaseTest.waitOneSec' and 'base.BaseTest.waitOneSec'
+03-01-2024 20:31:30.447 [java] [DEBUG] Found Wait {} seconds in current project scope.
+03-01-2024 20:31:30.447 [java] [DEBUG] Comparing 'test.LaunchTest.checkButton' and 'test.LaunchTest.checkButton'
+03-01-2024 20:31:30.447 [java] [DEBUG] Found Close the launch screen in current project scope.
+03-01-2024 20:31:30.447 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupButtonText' and 'test.SignUpTest.checkSignupButtonText'
+03-01-2024 20:31:30.447 [java] [DEBUG] Found Check signup button text in current project scope.
+03-01-2024 20:31:30.447 [java] [DEBUG] Comparing 'test.SignUpTest.checkSignupScreenTitle' and 'test.SignUpTest.checkSignupScreenTitle'
+03-01-2024 20:31:30.447 [java] [DEBUG] Found Check title of signup screen in current project scope.
+03-01-2024 20:31:30.447 [java] [DEBUG] Comparing 'test.LaunchTest.testAvailableButton' and 'test.LaunchTest.testAvailableButton'
+03-01-2024 20:31:30.447 [java] [DEBUG] Found Check the available button and click in current project scope.
+03-01-2024 20:31:30.447 [java] [DEBUG] Scanning packages for hooks
+03-01-2024 20:31:30.449 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Check the available button and click : public void testAvailableButton()
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Turn back : public void turnBack()
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Close the launch screen : public void checkButton()
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Check title of signup screen : public void checkSignupScreenTitle()
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Check signup button text : public void checkSignupButtonText()
+03-01-2024 20:31:30.450 [java] [DEBUG] 	Wait {} seconds : public void waitOneSec(long time) throws InterruptedException
+03-01-2024 20:31:30.752 [Gauge] [DEBUG] Validation completed.
+03-01-2024 20:31:30.752 [Gauge] [DEBUG] Run started
+03-01-2024 20:31:30.753 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2024 20:31:30.776 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-01-2024 20:31:30.776 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52264
+03-01-2024 20:31:30.778 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52264
+03-01-2024 20:31:30.778 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2024 20:31:30.791 [Gauge] [INFO] # Umob Mobile App Test
+03-01-2024 20:31:30.795 [Gauge] [INFO] ## Launch Test
+03-01-2024 20:31:37.341 [java] [ERROR] Jan 03, 2024 8:31:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+03-01-2024 20:31:37.341 [java] [ERROR] INFO: Detected dialect: W3C
+03-01-2024 20:31:37.353 [Gauge] [DEBUG] * Check the available button and click
+03-01-2024 20:31:37.358 [java] [DEBUG] Executing 'Check the available button and click' using 'class test.LaunchTest.testAvailableButton
+03-01-2024 20:31:41.024 [Gauge] [DEBUG] * Close the launch screen
+03-01-2024 20:31:41.027 [java] [DEBUG] Executing 'Close the launch screen' using 'class test.LaunchTest.checkButton
+03-01-2024 20:31:42.883 [Gauge] [DEBUG] * Check title of signup screen
+03-01-2024 20:31:42.885 [java] [DEBUG] Executing 'Check title of signup screen' using 'class test.SignUpTest.checkSignupScreenTitle
+03-01-2024 20:31:42.990 [Gauge] [DEBUG] * Check signup button text
+03-01-2024 20:31:42.992 [java] [DEBUG] Executing 'Check signup button text' using 'class test.SignUpTest.checkSignupButtonText
+03-01-2024 20:31:43.275 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2024 20:31:43.284 [html-report] [INFO] Successfully generated html-report to => /Users/numanhan/Desktop/AutomationUIUmobApp/reports/html-report/index.html
+03-01-2024 20:31:43.284 [html-report] [DEBUG] Done generating HTML report using theme from /Users/numanhan/.gauge/plugins/html-report/4.2.0/themes/default
+03-01-2024 20:31:43.284 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2024 20:31:43.285 [java] [DEBUG] Killing Java runner...
+03-01-2024 20:31:43.286 [java] [DEBUG] Stopping execution pool...
+03-01-2024 20:31:43.286 [java] [DEBUG] Shutting down grpc server...
+03-01-2024 20:31:43.288 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:31:43.288 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-01-2024 20:31:43.288 [Gauge] [INFO] 
+Total time taken: 12.521s

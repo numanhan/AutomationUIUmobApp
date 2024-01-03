@@ -1,5 +1,6 @@
 [
 	"gauge",
 	"run",
-	"specs/e2e.spec"
+	"--dir=/Users/numanhan/Desktop/AutomationUIUmobApp",
+	"/Users/numanhan/Desktop/AutomationUIUmobApp/specs"
 ]

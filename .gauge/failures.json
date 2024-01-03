@@ -1,8 +1,7 @@
 {
 	"Args": [
-		"run"
+		"run",
+		"--dir=/Users/numanhan/Desktop/AutomationUIUmobApp"
 	],
-	"FailedItems": [
-		"specs/e2e.spec"
-	]
+	"FailedItems": []
 }
